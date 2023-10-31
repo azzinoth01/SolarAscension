@@ -1,0 +1,101 @@
+.settingsMenu-slider {
+    color: rgb(255, 255, 255);
+    width: 30%;
+    font-size: 20px;
+    padding-left: 0;
+    -unity-text-align: upper-left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    align-items: auto;
+    flex-direction: row;
+    white-space: normal;
+    justify-content: space-between;
+    height: 8%;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+    position: absolute;
+}
+
+.settingsMenu-settingsPanel {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top: 15%;
+}
+
+.settingsMenu-tabSelector {
+    height: 90%;
+    width: 20%;
+    font-size: 30px;
+    margin-left: 4px;
+    margin-right: 20px;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+    -unity-font-style: normal;
+    background-color: rgba(219, 216, 216, 255);
+}
+
+.settingsMenu-tabSelector:hover {
+    background-color: rgb(224, 181, 102);
+}
+
+.settingsMenu-tabSelector-selected {
+    height: 90%;
+    width: 20%;
+    font-size: 35px;
+    margin-left: 4px;
+    margin-right: 30px;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+    -unity-font-style: normal;
+    background-color: rgb(224, 181, 102);
+}
+
+.settingsMenu-panelHeader {
+    position: absolute;
+    right: 85%;
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    width: 15%;
+    height: auto;
+    -unity-text-align: upper-left;
+    margin-left: 2px;
+    padding-left: 30px;
+    padding-top: 20px;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+}
+
+.settingsMenu-restoreDefaultsButton {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    top: 75%;
+    font-size: 20px;
+    left: 65%;
+}
+
+.settingsMenu-restoreDefaultsButton:hover {
+    background-color: rgb(224, 181, 102);
+}
+
+.slider-dragger {
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/EconomyDisplay/ResourceIcons/AluminiumIcon.png?fileID=2800000&guid=e1d4bc79978b37649a42c191b4271663&type=3#AluminiumIcon');
+}
+
+.close-button {
+    right: auto;
+    height: 35%;
+    width: 3%;
+    font-size: 50px;
+    -unity-font-style: bold;
+    margin-right: 30px;
+    bottom: 25%;
+    background-color: rgb(219, 216, 216);
+}
+
+.close-button:hover {
+    background-color: rgb(224, 181, 102);
+}

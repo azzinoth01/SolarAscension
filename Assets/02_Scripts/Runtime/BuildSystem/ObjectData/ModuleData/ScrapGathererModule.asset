@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833ed7afb2174ec3999c05ff6f5e637b, type: 3}
+  m_Name: ScrapGathererModule
+  m_EditorClassIdentifier: 
+  objectType: 4
+  isDistributor: 0
+  buildData: {fileID: 11400000, guid: 62b94b4023f3b544a8acb81f1c9bf513, type: 2}
+  distributionData: {fileID: 11400000, guid: eec8a128cae25ef4bb838890a1b519dd, type: 2}
+  descriptionData: {fileID: 11400000, guid: e5f0caf7745beca4e97637233679bc4c, type: 2}
+  buildingId: 4
+  droneMoveInPosition: {x: -1, y: 1, z: 1}
+  droneMoveOutPosition: {x: -1, y: 1, z: 2}
+  droneStayPoints:
+  - {x: -2.5, y: 3.5, z: 5}
+  - {x: 0, y: 3.5, z: 5}
+  - {x: 0, y: 3.5, z: 7.5}
+  - {x: 0, y: 3.5, z: 10}
+  - {x: -2.5, y: 3.5, z: 10}

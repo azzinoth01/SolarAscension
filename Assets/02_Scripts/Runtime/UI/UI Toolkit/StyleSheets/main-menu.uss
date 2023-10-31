@@ -1,0 +1,85 @@
+.background-opaque {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/01_Art/UI/MainMenu/MainMenu_Background.png?fileID=21300000&guid=89ae062d332322449b574dc3b732b6ff&type=3#MainMenu_Background');
+}
+
+.button-mainMenu {
+    width: 90%;
+    height: 7%;
+    min-width: auto;
+    min-height: 5%;
+    max-height: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    color: rgb(0, 255, 255);
+    -unity-font-style: normal;
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&guid=c83ccab64fc8b8b4b93e944d85a3e121&type=2#Kenney_Future SDF');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.button-mainMenu:hover {
+    background-image: url('project://database/Assets/01_Art/UI/MainMenu/MainMenu_Button_Hover.png?fileID=21300000&guid=90ea7ed6952acc445bcbd060f81cef4b&type=3#MainMenu_Button_Hover');
+    -unity-background-image-tint-color: rgb(102, 106, 106);
+    color: rgb(0, 0, 0);
+    opacity: 0.55;
+}
+
+.button-mainMenu:active {
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+}
+
+.credit-header {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future.ttf?fileID=12800000&guid=989a85b0a9e6d5b4cb2c1b4ed525a183&type=3#Kenney_Future');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&guid=c83ccab64fc8b8b4b93e944d85a3e121&type=2#Kenney_Future SDF');
+    margin-bottom: 15px;
+}
+
+.credit-align {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.credit-entry {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 255);
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+}
+
+.credit-button {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    width: 7%;
+    height: 5%;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    font-size: 30px;
+    color: rgb(224, 181, 102);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future.ttf?fileID=12800000&guid=989a85b0a9e6d5b4cb2c1b4ed525a183&type=3#Kenney_Future');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&guid=c83ccab64fc8b8b4b93e944d85a3e121&type=2#Kenney_Future SDF');
+}
+
+.credit-button:hover {
+    background-color: rgba(102, 106, 106, 0.49);
+}
+
+.credit-button:active {
+    background-color: rgba(219, 216, 216, 0.49);
+}

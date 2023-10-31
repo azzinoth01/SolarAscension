@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/resource-display.uss?fileID=7433441132597879392&amp;guid=2f2f631bc785d154a93675e7afdab006&amp;type=3#resource-display" />
+    <ui:VisualElement name="resourceDisplay_template" picking-mode="Ignore" class="resourceDisplay" style="width: 100%; height: 100%; max-width: 100%; min-width: 100%; max-height: 100%;">
+        <ui:VisualElement name="resourceIcon" picking-mode="Ignore" class="resourceIcon" style="min-width: 20%; min-height: 90%; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+        <ui:Label display-tooltip-when-elided="true" name="resourceLabel" text="Resource Consumption" picking-mode="Ignore" class="resourceLabel" style="font-size: 20px; -unity-text-align: middle-left;" />
+    </ui:VisualElement>
+</ui:UXML>

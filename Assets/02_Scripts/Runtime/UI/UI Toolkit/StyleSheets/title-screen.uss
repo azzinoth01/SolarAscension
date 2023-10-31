@@ -1,0 +1,27 @@
+.button-start {
+    position: absolute;
+    width: 37%;
+    height: 67%;
+    background-image: url('project://database/Assets/01_Art/UI/TitleScreen/TitleScreen_Button.png?fileID=21300000&guid=4764bd3a84b26a149a8f4459974f84be&type=3#TitleScreen_Button');
+    background-color: rgba(0, 0, 0, 0);
+    top: 50%;
+    left: 31%;
+    -unity-background-image-tint-color: rgb(250, 250, 250);
+    color: rgb(0, 255, 255);
+    -unity-font-style: bold;
+    font-size: 30px;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&guid=c83ccab64fc8b8b4b93e944d85a3e121&type=2#Kenney_Future SDF');
+    opacity: 0.55;
+}
+
+.button-start:hover {
+    background-image: url('project://database/Assets/01_Art/UI/TitleScreen/TitleScreen_Button_Hover.png?fileID=21300000&guid=3822bab0bf93ece45b7d8b04057e9c53&type=3#TitleScreen_Button_Hover');
+    color: rgb(0, 0, 0);
+    -unity-background-image-tint-color: rgba(219, 216, 216, 255);
+}
+
+.button-start:active {
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgba(219, 216, 216, 255);
+}

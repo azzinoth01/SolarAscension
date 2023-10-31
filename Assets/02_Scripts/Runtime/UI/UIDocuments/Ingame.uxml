@@ -1,0 +1,133 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/camera-settings.uss?fileID=7433441132597879392&amp;guid=bfe2616293d89cb4eb758d0626a49f67&amp;type=3#camera-settings" />
+    <ui:VisualElement name="background_frame" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Ingame_BackgroundFrame.png?fileID=21300000&amp;guid=f96101e940b22a444818373b2f8ac30c&amp;type=3#Ingame_BackgroundFrame&apos;); -unity-background-image-tint-color: rgba(0, 0, 0, 0.78); display: none;" />
+    <ui:VisualElement name="left_align" picking-mode="Ignore" style="position: absolute; height: 100%; width: 30%; min-width: 10%; justify-content: center; top: 1px; left: 0;">
+        <ui:VisualElement name="frameLeft" picking-mode="Ignore" style="position: absolute; width: 8%; height: 50%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/CameraSettings/CameraSettings_BackgroundFrame.png?fileID=21300000&amp;guid=84e1d8045cf02e24a982b12e15d13c5a&amp;type=3#CameraSettings_BackgroundFrame&apos;); -unity-background-image-tint-color: rgb(250, 250, 250); align-items: flex-start; justify-content: center; bottom: 30%; opacity: 0.55;">
+            <ui:VisualElement name="frameLeft_bg" style="width: 100%; height: 55%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/CameraSettings/CameraSettings_Background.png?fileID=21300000&amp;guid=d4f416a9030673147951898e8518dbb9&amp;type=3#CameraSettings_Background&apos;); position: absolute; top: 23%; -unity-background-image-tint-color: rgb(102, 106, 106); opacity: 0.55; left: 0; background-color: rgba(5, 0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="menu_selection" picking-mode="Ignore" style="height: 10%; width: 6%; position: absolute; justify-content: center; align-items: center; bottom: auto; margin-top: 20px; margin-left: 8px; top: 33%; left: 0;">
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="button_diplomacyMenu" tooltip="r:diplomacy" class="menu-selection-button diplomacy-button" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/CameraSettings/CameraSettings_DiplomacyIcon.png?fileID=21300000&amp;guid=1299d89e6dba5be4bbc6c8acb273a97d&amp;type=3#CameraSettings_DiplomacyIcon&apos;);" />
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="button_questMenu" tooltip="r:questDiary" class="menu-selection-button quest-button" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/CameraSettings/CameraSettings_QuestIcon.png?fileID=21300000&amp;guid=a3c340015c89e1c4285a5e39ce798a02&amp;type=3#CameraSettings_QuestIcon&apos;);" />
+            <ui:VisualElement name="openQuest_display" picking-mode="Ignore" style="width: 12px; height: 12px; right: 1px; top: 65px; background-color: rgb(255, 200, 150); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; position: absolute; display: none;">
+                <ui:Label text="1" display-tooltip-when-elided="true" picking-mode="Ignore" name="label_openQuestCount" style="width: 100%; height: 100%; -unity-font-style: bold; font-size: 8px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-center; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); white-space: nowrap;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="camera_settings" picking-mode="Ignore" style="height: 10%; width: 6%; position: absolute; justify-content: center; align-items: center; bottom: auto; margin-top: 40px; margin-left: 8px; top: 42%; left: 0;">
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="button_cameraReset" tooltip="r:cameraReset" class="camera-button cameraReset-button" style="background-color: rgba(120, 120, 120, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/CameraSettings/CameraSettings_ResetIcon.png?fileID=21300000&amp;guid=27a3ad12778390e40beccd1212984afc&amp;type=3#CameraSettings_ResetIcon&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Button display-tooltip-when-elided="true" name="button_cameraFocus" tooltip="r:cameraFocus" class="camera-button cameraFocus-button" style="background-color: rgba(120, 120, 120, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/CameraSettings/CameraSettings_FocusIcon.png?fileID=21300000&amp;guid=16a3828174c69994188edb25a6d10066&amp;type=3#CameraSettings_FocusIcon&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="right_align" picking-mode="Ignore" style="position: absolute; height: 100%; width: 30%; left: 70%; min-width: 10%; justify-content: flex-end; align-items: flex-end;">
+        <ui:VisualElement name="warningDisplay" style="width: 70%; height: auto; justify-content: flex-start; align-items: center; bottom: 50%; min-height: 10%;">
+            <ui:VisualElement name="background" style="position: absolute; width: 100%; height: 100%;">
+                <ui:VisualElement name="background_panel" style="position: absolute; width: 80%; height: 87%; left: 10%; top: 10%; background-color: rgba(102, 106, 106, 0.47);" />
+                <ui:VisualElement name="frame_left" style="height: 100%; width: 10%; position: absolute; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/WarningDisplay/WarningDisplay_Frame_Left.png?fileID=21300000&amp;guid=35dcd80b5f2b2e646b4ec62c93cdc5c2&amp;type=3#WarningDisplay_Frame_Left&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgba(219, 216, 216, 0.59);" />
+                <ui:VisualElement name="frame_top" style="width: 90%; height: 30%; position: absolute; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/WarningDisplay/WarningDisplay_Frame_Top.png?fileID=21300000&amp;guid=dce856bb0e476a54dbfe11d632c87b1e&amp;type=3#WarningDisplay_Frame_Top&apos;); -unity-background-scale-mode: scale-to-fit; top: -20%; left: 5%; -unity-background-image-tint-color: rgba(219, 216, 216, 0.59);" />
+                <ui:VisualElement name="frame_right" style="height: 100%; width: 10%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/WarningDisplay/WarningDisplay_Frame_Right.png?fileID=21300000&amp;guid=3d760be7fba777b46bd5b6143c917059&amp;type=3#WarningDisplay_Frame_Right&apos;); -unity-background-scale-mode: scale-to-fit; left: 90%; -unity-background-image-tint-color: rgba(219, 216, 216, 0.59);" />
+                <ui:VisualElement name="frame_bottom" style="position: absolute; width: 90%; height: 30%; left: 5%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/WarningDisplay/WarningDisplay_Frame_Down.png?fileID=21300000&amp;guid=a8fb54a93691685469d52ea34da5fea4&amp;type=3#WarningDisplay_Frame_Down&apos;); -unity-background-scale-mode: scale-to-fit; top: 90%; -unity-background-image-tint-color: rgba(219, 216, 216, 0.59);" />
+                <ui:VisualElement name="warningIcon" style="-unity-background-image-tint-color: rgb(200, 20, 0); background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/WarningDisplay/WarningDisplay_WarningIcon.png?fileID=21300000&amp;guid=ed793ed753f2d804084d21742b7a4661&amp;type=3#WarningDisplay_WarningIcon&apos;); -unity-background-scale-mode: scale-to-fit; width: 16%; height: 50px; left: 42%; position: absolute; top: -45px;" />
+            </ui:VisualElement>
+            <ui:Label text="#tip" display-tooltip-when-elided="true" name="label_warningHeader" style="color: rgb(255, 255, 255); font-size: 15px; -unity-text-align: upper-center; -unity-font-style: bold; max-height: none; min-height: 20px; margin-top: 15px; width: 90%; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="button_closeWarning" class="warning-close-button" />
+            </ui:Label>
+            <ui:Label display-tooltip-when-elided="true" name="label_warningMessage" style="color: rgb(255, 255, 255); font-size: 13px; white-space: normal; padding-left: 10px; margin-bottom: 20px; align-items: stretch; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); max-width: 90%; -unity-font-style: normal;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="top_align" picking-mode="Ignore" style="position: absolute; width: 100%; height: 30%; min-width: 10%;">
+        <ui:VisualElement name="economyDisplay" picking-mode="Ignore" style="width: 80%; height: 20%; align-items: flex-start; flex-direction: row; left: 10%;">
+            <ui:VisualElement name="background_border" picking-mode="Ignore" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Economy/Economy_Frame_Border.png?fileID=21300000&amp;guid=54fff843829183048b167b1ba6bc2a2a&amp;type=3#Economy_Frame_Border&apos;); width: 100%; height: 100%; position: absolute; -unity-background-image-tint-color: rgb(250, 250, 250); left: 5%; -unity-background-scale-mode: stretch-to-fill; opacity: 1;" />
+            <ui:VisualElement picking-mode="Ignore" name="background" style="position: absolute; height: 100%; width: 60%; left: 198px; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Economy/Economy_Frame_Background.png?fileID=21300000&amp;guid=9505b22e6dbd5154c994890e0955fd8e&amp;type=3#Economy_Frame_Background&apos;); opacity: 0.55; -unity-background-image-tint-color: rgb(102, 106, 106); top: 5px; -unity-background-scale-mode: stretch-to-fill;" />
+            <ui:VisualElement name="panel_currency" style="flex-direction: row; width: 10%; height: 40%; left: 15%; margin-top: 10px;">
+                <ui:VisualElement name="resource_money" tooltip="b:money" class="resource-display">
+                    <ui:VisualElement name="moneyIcon" class="resource-icon" style="width: 17%; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_moneyBalance" enable-rich-text="false" class="resource-label" style="width: 70%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="panel_infrastructure" style="height: 40%; width: 16%; flex-direction: row; justify-content: space-around; left: 17%; margin-top: 10px;">
+                <ui:VisualElement name="resource_energy" tooltip="b:energy" class="resource-display">
+                    <ui:VisualElement name="energyIcon" class="resource-icon" style="margin-left: 0; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_energyBalance" class="resource-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="panel_importantResources" style="width: 24%; height: 40%; flex-direction: row; left: 19%; margin-top: 10px;">
+                <ui:VisualElement name="resource_aluminium" tooltip="b:aluminum" class="resource-display">
+                    <ui:VisualElement name="aluminiumIcon" class="resource-icon" style="margin-left: 0; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_aluminiumBalance" class="resource-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_water" tooltip="b:water" class="resource-display">
+                    <ui:VisualElement name="waterIcon" class="resource-icon" style="margin-left: 0; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_waterBalance" class="resource-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_biopolymere" tooltip="b:biopolymer" class="resource-display">
+                    <ui:VisualElement name="biopolymereIcon" class="resource-icon" style="margin-left: 0; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_biopolymereBalance" class="resource-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="panel_workforce" style="width: 24%; height: 40%; position: absolute; left: 46%; top: 50%; margin-top: 9px; flex-direction: row;">
+                <ui:VisualElement name="resource_population" tooltip="b:population" class="resource-display" style="max-width: 33%;">
+                    <ui:VisualElement name="workforceEcologyIcon" class="resource-icon" style="margin-left: 0; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_workforceEcologyBalance" class="resource-label" style="color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(219, 216, 216);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_workforceEcology" tooltip="b:workforceEcology" class="resource-display" style="max-width: 33%;">
+                    <ui:VisualElement name="ecologistIcon" class="resource-icon" style="margin-left: 0; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                    <ui:Label display-tooltip-when-elided="true" name="label_ecologistAvailable" class="resource-label" style="color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(219, 216, 216);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="bottom_align" picking-mode="Ignore" style="position: absolute; width: 100%; height: 30%; top: 70%; min-width: 10%; min-height: 10%; justify-content: flex-start; align-items: center; flex-direction: column-reverse; flex-wrap: nowrap;">
+        <ui:VisualElement name="build_menu" picking-mode="Ignore" style="height: 20%; width: 100%; justify-content: flex-start; align-items: center; flex-direction: column-reverse; display: flex; position: relative; visibility: visible;">
+            <ui:VisualElement name="module_selection" style="height: 100%; width: 60%; right: 10%; align-items: center; justify-content: space-around; flex-direction: row; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_Background.png?fileID=21300000&amp;guid=d3f0fb835503ae544a46d51a7f30d83d&amp;type=3#BuildMenu_Background&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgba(102, 106, 106, 0.51); opacity: 1;">
+                <ui:VisualElement picking-mode="Ignore" name="background_frame" style="position: absolute; width: 83%; height: 100%; left: 8%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_Background_Frame.png?fileID=21300000&amp;guid=345463ea1138a334a8af7991cbdd4f8e&amp;type=3#BuildMenu_Background_Frame&apos;); -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                <ui:VisualElement name="tier1_display" style="flex-grow: 0; width: 70%; height: 100%; position: relative; align-items: flex-start; justify-content: center; flex-wrap: wrap;">
+                    <ui:Button display-tooltip-when-elided="true" name="button_tube" tooltip="t:tube" class="module-selector" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/BuildMenu/ModuleIcons/TubeIcon.png?fileID=21300000&amp;guid=f6a2798c74e3eee48818db20d1e23490&amp;type=3#TubeIcon&apos;);" />
+                    <ui:Button text="Scrap &#10;Gatherer" display-tooltip-when-elided="true" name="button_scrapGatherer" tooltip="t:scrapGatherer" class="module-selector" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+                        <ui:VisualElement name="scrapGatherer_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                    <ui:Button name="button_solarModule" tooltip="t:solarModule" class="module-selector" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/BuildMenu/ModuleIcons/SolarModuleIcon.png?fileID=21300000&amp;guid=8474bddefad3bb1458aa02b11834e0c1&amp;type=3#SolarModuleIcon&apos;);">
+                        <ui:VisualElement name="solarModule_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                    <ui:Button text="Ice Miner" display-tooltip-when-elided="true" name="button_iceMiner" tooltip="t:iceMiner" class="module-selector">
+                        <ui:VisualElement name="iceMiner_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                    <ui:Button text="Oxygen&#10;Module" display-tooltip-when-elided="true" name="button_oxygenModule" tooltip="t:oxygenModule" class="module-selector">
+                        <ui:VisualElement name="oxygenModule_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                    <ui:Button text="Population&#10;Module" display-tooltip-when-elided="true" name="button_populationModule" tooltip="t:populationModule" class="module-selector">
+                        <ui:VisualElement name="populationModule_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                    <ui:Button text="Aquaponik" display-tooltip-when-elided="true" name="button_aquaponic" tooltip="t:aquaponicModule" class="module-selector">
+                        <ui:VisualElement name="aquaponic_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                    <ui:Button text="Biopolymere" display-tooltip-when-elided="true" name="button_biopolymere" tooltip="t:biopolymerModule" class="module-selector">
+                        <ui:VisualElement name="biopolymere_inputBlocker" class="module-input-blocker" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="tier2_display" style="flex-grow: 0; width: 70%; height: 100%; position: absolute; align-items: flex-start; justify-content: center; flex-wrap: wrap; display: none;" />
+                <ui:VisualElement name="tier3_display" style="position: absolute; align-items: flex-start; justify-content: center; width: 70%; height: 100%; flex-wrap: wrap; display: none;">
+                    <ui:Button text="Distillery" display-tooltip-when-elided="true" name="button_distillery" tooltip="t:distillery" class="module-selector" />
+                    <ui:Button text="Fruit Slice&#10;Factory" display-tooltip-when-elided="true" name="button_fruitSliceFactory" tooltip="t:fruitSliceFactory" class="module-selector" style="white-space: nowrap;" />
+                    <ui:Button text="Storage" display-tooltip-when-elided="true" name="button_storage" tooltip="t:storage" class="module-selector" />
+                    <ui:Button text="Acrylglas" display-tooltip-when-elided="true" name="button_acrylglas" tooltip="t:acrylglasModule" class="module-selector" />
+                    <ui:Button text="Shuttle Bay" display-tooltip-when-elided="true" name="button_shuttleBay" tooltip="t:shuttleBay" class="module-selector" />
+                </ui:VisualElement>
+                <ui:VisualElement name="highlightFrame_tier1" style="position: absolute; width: 270px; height: 80%; left: 174px; border-left-color: rgb(255, 200, 150); border-right-color: rgb(255, 200, 150); border-top-color: rgb(255, 200, 150); border-bottom-color: rgb(255, 200, 150); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" />
+                <ui:VisualElement name="highlightFrame_tier2" picking-mode="Ignore" style="position: absolute; width: 165px; height: 80%; left: 444px; border-left-color: rgb(255, 200, 150); border-right-color: rgb(255, 200, 150); border-top-color: rgb(255, 200, 150); border-bottom-color: rgb(255, 200, 150); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="mode_selection" picking-mode="Ignore" style="align-items: stretch; flex-direction: row; justify-content: space-around; width: 6%; height: 50%; position: absolute; bottom: 96%; right: 39%;">
+                <ui:Button display-tooltip-when-elided="true" name="button_oxygenOverlay" tooltip="t:oxygenOverlay" class="build-menu-button" />
+                <ui:Button display-tooltip-when-elided="true" name="button_moveModeButton" tooltip="t:moveButton" class="build-menu-button" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_Button_Move.png?fileID=21300000&amp;guid=2f4320111ce8bcb469c46f92b2105ec2&amp;type=3#BuildMenu_Button_Move&apos;);" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="button_destroyModeButton" tooltip="t:demolishButton" class="build-menu-button" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_Button_Demolish.png?fileID=21300000&amp;guid=71aba8fd58a877c449a81da87f976287&amp;type=3#BuildMenu_Button_Demolish&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tier_selection" picking-mode="Ignore" style="position: absolute; width: 10%; height: 50%; bottom: 98%; left: 19%; flex-direction: row;">
+                <ui:Button text="1" display-tooltip-when-elided="true" name="button_tier1Selector" class="tier-selector" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; opacity: 1;" />
+                <ui:Button text="2" display-tooltip-when-elided="true" name="button_tier2Selector" class="tier-selector" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; left: 240px;" />
+                <ui:Button display-tooltip-when-elided="true" name="button_tier3Selector" text="3" class="tier-selector" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; display: none;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="flyingText" picking-mode="Ignore" style="flex-direction: row-reverse; align-items: center; justify-content: flex-end; position: absolute; background-color: rgba(0, 0, 0, 0.59); min-width: 2%; min-height: 2%; max-width: 20%; max-height: 10%; display: none;">
+        <ui:Label text="This is the flying Text Label" display-tooltip-when-elided="true" name="flyingText_label" style="font-size: 15px; -unity-font-style: bold; color: rgb(255, 255, 255); white-space: normal;" />
+        <ui:VisualElement name="flyingText_icon" style="display: flex; width: 80%; height: 80%; min-width: 32px; min-height: 240px;" />
+    </ui:VisualElement>
+</ui:UXML>

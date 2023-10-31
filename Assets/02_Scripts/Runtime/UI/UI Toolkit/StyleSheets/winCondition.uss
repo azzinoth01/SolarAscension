@@ -1,0 +1,22 @@
+.button-continue {
+    width: 25%;
+    height: 15%;
+    top: 55%;
+    font-size: 30px;
+    -unity-font: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future.ttf?fileID=12800000&guid=989a85b0a9e6d5b4cb2c1b4ed525a183&type=3#Kenney_Future');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&guid=c83ccab64fc8b8b4b93e944d85a3e121&type=2#Kenney_Future SDF');
+    color: rgb(255, 200, 150);
+    background-color: rgba(188, 188, 188, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.button-continue:hover {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.button-continue:active {
+    background-color: rgba(100, 100, 100, 0.59);
+}

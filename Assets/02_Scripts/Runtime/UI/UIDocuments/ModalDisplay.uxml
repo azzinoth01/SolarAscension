@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/modal-display.uss?fileID=7433441132597879392&amp;guid=d6eb37495d4f92f40be21d1efe8389bd&amp;type=3#modal-display" />
+    <ui:VisualElement name="background" class="modalDisplay-background" style="background-color: rgba(0, 0, 0, 0.59);" />
+    <ui:VisualElement name="panel_modalDisplay" style="position: absolute; width: 50%; height: 50%; top: 25%; left: 25%; background-color: rgb(210, 210, 210); border-left-width: 10px; border-right-width: 10px; border-top-width: 10px; border-bottom-width: 10px; border-left-color: rgb(50, 50, 50); border-right-color: rgb(50, 50, 50); border-top-color: rgb(50, 50, 50); border-bottom-color: rgb(50, 50, 50); align-items: center; min-width: 5%; min-height: 5%;">
+        <ui:Label text="This is the modal Message, are you sure you want to close this window?" display-tooltip-when-elided="true" name="label_modalMessage" style="width: 90%; height: 70%; padding-top: 50px; font-size: 35px; -unity-font-style: normal; flex-wrap: nowrap; white-space: normal; -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;);" />
+        <ui:VisualElement name="panel_modalButtons" style="width: 90%; height: 30%; justify-content: space-around; flex-direction: row; align-items: center;">
+            <ui:Button text="#confirm" display-tooltip-when-elided="true" name="button_confirm" class="modalDisplay-button" />
+            <ui:Button text="#cancel" display-tooltip-when-elided="true" name="button_cancel" class="modalDisplay-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

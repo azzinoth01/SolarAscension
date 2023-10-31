@@ -1,0 +1,148 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/module-popup.uss?fileID=7433441132597879392&amp;guid=63168d328e98baa41837654dea1c2247&amp;type=3#module-popup" />
+    <ui:VisualElement name="right_align" picking-mode="Ignore" style="position: absolute; height: 100%; width: 30%; left: 70%; min-width: 10%; justify-content: flex-end; align-items: flex-end;">
+        <ui:VisualElement name="moduleInfo" style="height: 45%; width: 65%; align-items: flex-end; justify-content: flex-end; display: flex;">
+            <ui:VisualElement name="popup_buildInfo" class="module-popup" style="display: none; visibility: visible;">
+                <ui:VisualElement name="sI_backgroundFrame_bottom" class="module-data" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_BackgroundFrame_Bottom.png?fileID=21300000&amp;guid=b98aec8db58116149ba8691fc4052267&amp;type=3#ModulePopup_BackgroundFrame_Bottom&apos;); min-height: 3%; -unity-background-scale-mode: scale-to-fit; max-height: 3%; height: auto; width: 100%; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                <ui:VisualElement name="bI_descriptionData" class="module-data" style="height: auto; -unity-background-image-tint-color: rgba(102, 106, 106, 0.75);">
+                    <ui:Label text="this is a very fancy description" display-tooltip-when-elided="true" name="label_bIDescription" style="margin-left: 20px; color: rgb(255, 255, 255); -unity-font-style: normal; font-size: 15px; white-space: normal; width: 80%; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bI_constructionData" class="module-data consumption-data" style="display: flex; height: 15%; margin-top: 0; -unity-background-image-tint-color: rgba(102, 106, 106, 0.75); opacity: 0.8;" />
+                <ui:VisualElement name="bI_constructionHeader" class="module-data" style="height: 5%; margin-bottom: 0; -unity-background-image-tint-color: rgba(102, 106, 106, 0.74);">
+                    <ui:Label text="#constructionCost" display-tooltip-when-elided="true" name="header" enable-rich-text="true" class="module-data-header" />
+                </ui:VisualElement>
+                <ui:VisualElement name="bI_moduleData" class="module-data" style="-unity-background-image-tint-color: rgba(102, 106, 106, 0.68);">
+                    <ui:VisualElement name="bI_ModuleIcon" style="height: 80%; width: 15%; margin-left: 10px; background-image: url(&apos;project://database/Assets/01_Art/UI/TitleScreen/TitleScreen_Background.png?fileID=21300000&amp;guid=f5992081493011c4186ab698cfb6be2b&amp;type=3#TitleScreen_Background&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:Label text="Module Name" display-tooltip-when-elided="true" name="label_bIModuleName" style="margin-left: 10px; white-space: normal; -unity-text-align: middle-center; font-size: 20px; -unity-font-style: bold; color: rgb(255, 255, 255); width: 60%; padding-right: 10px; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+                    <ui:Button text="X" display-tooltip-when-elided="true" name="button_bIClose" style="width: 10%; -unity-font-style: bold; font-size: 25px; height: 50%; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; background-color: rgb(219, 216, 216);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_backgroundFrame_top" class="module-data" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_BackgroundFrame_Top.png?fileID=21300000&amp;guid=ffe5615049cc9194eb34d8da7d770dd3&amp;type=3#ModulePopup_BackgroundFrame_Top&apos;); min-height: 3%; -unity-background-scale-mode: scale-to-fit; max-height: 3%; height: auto; width: 100%; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="popup_selectionInfo" class="module-popup" style="flex-wrap: nowrap; flex-direction: column-reverse; height: 100%; max-height: 125%; display: flex;">
+                <ui:VisualElement name="sI_backgroundFrame_bottom" class="module-data" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_BackgroundFrame_Bottom.png?fileID=21300000&amp;guid=b98aec8db58116149ba8691fc4052267&amp;type=3#ModulePopup_BackgroundFrame_Bottom&apos;); min-height: 3%; -unity-background-scale-mode: scale-to-fit; max-height: 3%; height: auto; width: 100%; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                <ui:VisualElement name="sI_descriptionData" class="module-data consumption-data" style="justify-content: flex-start; align-items: flex-start; height: auto; min-height: 6%; max-height: 25%; opacity: 0.8; display: none;">
+                    <ui:Label text="Description" display-tooltip-when-elided="true" name="sI_descriptionLabel" style="color: rgb(255, 255, 255); font-size: 15px; margin-left: 10px; margin-top: 5px; margin-right: 5px; max-width: 95%; white-space: normal; -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_populationTabData" focusable="true" class="module-data" style="border-top-width: 0; align-items: center; height: 10%; min-height: 10%; max-height: 10%; opacity: 0.8; -unity-background-image-tint-color: rgba(102, 106, 106, 0.89); justify-content: space-around;">
+                    <ui:Button text="#buildingInfo" display-tooltip-when-elided="true" name="button_buildingInfo" enable-rich-text="false" class="populationTab-button" />
+                    <ui:Button text="#needs" display-tooltip-when-elided="true" name="button_needs" enable-rich-text="false" class="populationTab-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_needsData" class="module-data consumption-data" style="min-height: 15%; max-height: 35%; display: flex; opacity: 1; height: 15%; align-items: flex-start; -unity-background-image-tint-color: rgba(102, 106, 106, 0.8);">
+                    <ui:Label text="#needsHeader" display-tooltip-when-elided="true" name="sI_needsHeader" enable-rich-text="true" class="module-data-header" style="height: 20%; margin-bottom: 4px;" />
+                    <ui:VisualElement name="needTemplateContainer" style="max-width: 100%; min-width: 100%; flex-direction: row; flex-wrap: wrap; align-items: stretch; flex-grow: 0; height: 70%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_populationData" class="module-data consumption-data" style="min-height: 15%; max-height: 35%; display: flex; opacity: 1; -unity-background-image-tint-color: rgba(102, 106, 106, 0.8);">
+                    <ui:Label text="#population" display-tooltip-when-elided="true" name="sI_populationHeader" enable-rich-text="true" class="module-data-header" />
+                    <ui:VisualElement name="populationIcon" style="position: absolute; width: 8%; height: 40%; -unity-background-scale-mode: scale-to-fit; left: 8%; top: 30%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Economy/ResourceIcons/PopulationIcon.png?fileID=21300000&amp;guid=012285084b3972e4d8bb67b4e9d3c491&amp;type=3#PopulationIcon&apos;); -unity-background-image-tint-color: rgb(219, 216, 216);" />
+                    <ui:VisualElement name="smileIcon" style="position: absolute; width: 6%; height: 30%; left: 80%; top: 15%; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_SmileIcon.png?fileID=21300000&amp;guid=92edaff19b95d42479a2f4332253df27&amp;type=3#ModulePopup_SmileIcon&apos;); -unity-background-image-tint-color: rgb(219, 216, 216);" />
+                    <ui:VisualElement name="sadIcon" style="position: absolute; width: 6%; height: 30%; left: 35%; top: 15%; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_SadIcon.png?fileID=21300000&amp;guid=a39632a43c2c3c7468fc43780ed1a0ef&amp;type=3#ModulePopup_SadIcon&apos;); -unity-background-image-tint-color: rgb(219, 216, 216);" />
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="label_populationCount" style="color: rgb(255, 255, 255); -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); font-size: 10px; -unity-font-style: bold; -unity-text-align: middle-center; height: 10%; width: 21%; top: 65%; position: absolute; left: 1%;" />
+                    <ui:VisualElement name="population_happinessBar" style="position: absolute; width: 70%; height: 5%; left: 25%; top: 60%; background-color: rgba(50, 50, 50, 0.78); justify-content: center;">
+                        <ui:VisualElement name="population_happinessMarker" style="position: absolute; width: 5px; height: 15px; background-color: rgb(255, 0, 0); left: 0;" />
+                    </ui:VisualElement>
+                    <ui:Label text="#unsatisfied" display-tooltip-when-elided="true" name="label_unsatisfied" style="color: rgb(255, 255, 255); font-size: 10px; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); position: absolute; width: 25%; height: 25%; left: 22%; -unity-text-align: middle-center; margin-left: 0; margin-right: 0; top: 65%;" />
+                    <ui:Label text="#satisfied" display-tooltip-when-elided="true" name="label_satisfied" style="color: rgb(255, 255, 255); font-size: 10px; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;); position: absolute; width: 25%; height: 25%; left: 75%; -unity-text-align: middle-center; margin-left: 0; margin-right: 0; top: 65%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_priorityData" class="module-data" style="border-top-width: 0; align-items: flex-start; height: 18%; min-height: 18%; max-height: 18%; opacity: 0.8; -unity-background-image-tint-color: rgba(102, 106, 106, 0.89); display: none;">
+                    <ui:Label text="#priority" display-tooltip-when-elided="true" name="sI_priorityHeader" enable-rich-text="true" class="module-data-header" />
+                    <ui:Button display-tooltip-when-elided="true" name="button_priority_1" class="button-priority" />
+                    <ui:Button display-tooltip-when-elided="true" name="button_priority_2" class="button-priority" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_PriorityIcon_2.png?fileID=21300000&amp;guid=8569b57d15246bc4dbaabbeeb1366b25&amp;type=3#ModulePopup_PriorityIcon_2&apos;);" />
+                    <ui:Button display-tooltip-when-elided="true" name="button_priority_3" class="button-priority" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_PriorityIcon_3.png?fileID=21300000&amp;guid=24e7849a2430b9640a05bd7745b9b309&amp;type=3#ModulePopup_PriorityIcon_3&apos;); overflow: visible; visibility: visible;" />
+                    <ui:Button display-tooltip-when-elided="true" name="button_sleepMode" class="button-sleepMode" style="overflow: visible;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_attachmentData" class="module-data consumption-data" style="justify-content: center; align-items: center; height: 25%; min-height: 25%; max-height: 75%; flex-direction: column; opacity: 1; -unity-background-image-tint-color: rgba(102, 106, 106, 0.8); display: none;" />
+                <ui:VisualElement name="sI_productionData" class="module-data consumption-data" style="display: none; min-height: 15%; max-height: 35%; opacity: 0.8;">
+                    <ui:Label text="#production" display-tooltip-when-elided="true" name="sI_productionHeader" enable-rich-text="true" class="module-data-header" />
+                    <ui:VisualElement name="sI_productionDisplay_0" class="consumption-display">
+                        <ui:VisualElement name="sI_productionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_productionLabel" text="Resource Consumption" class="resourceLabel" style="-unity-background-image-tint-color: rgba(219, 216, 216, 0);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_productionDisplay_1" class="consumption-display">
+                        <ui:VisualElement name="sI_productionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_productionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_productionDisplay_2" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_productionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_productionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_productionDisplay_3" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_productionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_productionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_productionDisplay_4" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_productionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_productionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_productionDisplay_5" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_productionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_productionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_efficiencyData" class="module-data" style="border-top-width: 0; align-items: flex-start; height: auto; min-height: 6%; max-height: 6%; opacity: 0.8; -unity-background-image-tint-color: rgba(102, 106, 106, 0.91); display: none;">
+                    <ui:Label text="#efficiency" display-tooltip-when-elided="true" name="sI_efficiencyHeader" enable-rich-text="true" class="module-data-header" style="position: relative; width: 30%;" />
+                    <ui:Label text="100%" display-tooltip-when-elided="true" name="sI_efficiencyLabel" enable-rich-text="true" style="color: rgb(255, 255, 255); font-size: 15px; -unity-font-style: normal; width: 25%; padding-left: 0; padding-top: 2px; padding-bottom: 2px; position: relative; margin-bottom: 5px; white-space: normal; -unity-background-image-tint-color: rgb(219, 216, 216); -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_consumptionData" class="module-data consumption-data" style="min-height: 15%; max-height: 35%; display: none; opacity: 0.8;">
+                    <ui:Label text="#consumption" display-tooltip-when-elided="true" name="sI_consumptionHeader" enable-rich-text="true" class="module-data-header" />
+                    <ui:VisualElement name="sI_consumptionDisplay_0" class="consumption-display">
+                        <ui:VisualElement name="sI_consumptionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_consumptionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_consumptionDisplay_1" class="consumption-display">
+                        <ui:VisualElement name="sI_consumptionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_consumptionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_consumptionDisplay_2" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_consumptionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_consumptionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_consumptionDisplay_3" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_consumptionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_consumptionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_consumptionDisplay_4" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_consumptionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_consumptionLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_consumptionDisplay_5" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_consumptionIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_consumptionLabel" text="Resource Consumption" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_maintenanceData" class="module-data consumption-data" style="min-height: 15%; max-height: 35%; display: none; opacity: 0.8;">
+                    <ui:Label text="#maintenance" display-tooltip-when-elided="true" name="sI_maintenanceHeader" enable-rich-text="true" class="module-data-header" />
+                    <ui:VisualElement name="sI_maintenanceDisplay_0" class="consumption-display">
+                        <ui:VisualElement name="sI_maintenanceIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_maintenanceLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_maintenanceDisplay_1" class="consumption-display">
+                        <ui:VisualElement name="sI_maintenanceIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_maintenanceLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_maintenanceDisplay_2" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_maintenanceIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_maintenanceLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_maintenanceDisplay_3" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_maintenanceIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_maintenanceLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_maintenanceDisplay_4" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_maintenanceIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_maintenanceLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sI_maintenanceDisplay_5" class="consumption-display" style="display: none;">
+                        <ui:VisualElement name="sI_maintenanceIcon" class="resource-icon" style="-unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+                        <ui:Label display-tooltip-when-elided="true" name="sI_maintenanceLabel" text="Resource Consumption" class="resourceLabel" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_moduleData" class="module-data" style="min-height: 15%; max-height: 15%; -unity-background-image-tint-color: rgba(102, 106, 106, 0.78); opacity: 0.8;">
+                    <ui:VisualElement name="sI_ModuleIcon" style="height: 80%; width: 15%; margin-left: 10px; background-image: url(&apos;project://database/Assets/01_Art/UI/TitleScreen/TitleScreen_Background.png?fileID=21300000&amp;guid=f5992081493011c4186ab698cfb6be2b&amp;type=3#TitleScreen_Background&apos;); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:Label text="Module Name" display-tooltip-when-elided="true" name="label_sIModuleName" style="margin-left: 10px; white-space: normal; -unity-text-align: middle-center; font-size: 20px; -unity-font-style: bold; color: rgb(255, 255, 255); width: 60%; padding-right: 10px; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+                    <ui:Button text="X" display-tooltip-when-elided="true" name="button_sIClose" style="width: 10%; -unity-font-style: bold; font-size: 25px; height: 50%; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; background-color: rgb(219, 216, 216);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sI_backgroundFrame_top" class="module-data" style="background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/ModulePopup_BackgroundFrame_Top.png?fileID=21300000&amp;guid=ffe5615049cc9194eb34d8da7d770dd3&amp;type=3#ModulePopup_BackgroundFrame_Top&apos;); min-height: 3%; -unity-background-scale-mode: scale-to-fit; max-height: 3%; height: auto; width: 100%; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

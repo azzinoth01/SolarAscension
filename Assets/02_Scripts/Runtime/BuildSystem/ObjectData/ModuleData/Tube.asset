@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833ed7afb2174ec3999c05ff6f5e637b, type: 3}
+  m_Name: Tube
+  m_EditorClassIdentifier: 
+  objectType: 2
+  buildData: {fileID: 11400000, guid: 0f9c763bc3ea0da4d9ac19f7c5557c16, type: 2}
+  distributionData: {fileID: 11400000, guid: 876d1470ce3414543b3b68aa541f71b0, type: 2}
+  descriptionData: {fileID: 11400000, guid: 85dadeb5cfb18564b91d576585e8d52e, type: 2}
+  buildingId: 2

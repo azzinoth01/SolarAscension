@@ -1,0 +1,64 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/main-menu.uss?fileID=7433441132597879392&amp;guid=4830a7b7602ff2a41bb24cbb0a34a33b&amp;type=3#main-menu" />
+    <ui:VisualElement name="background" class="background-opaque">
+        <ui:VisualElement name="background_frame" class="background-opaque" style="background-image: url(&apos;project://database/Assets/01_Art/UI/MainMenu/MainMenu_Frame.png?fileID=21300000&amp;guid=ea796311bffb671489ee762f677ccf43&amp;type=3#MainMenu_Frame&apos;); -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="left_align" picking-mode="Ignore" style="position: absolute; left: auto; top: auto; height: 100%; width: 50%; align-items: flex-start; justify-content: flex-start;">
+        <ui:VisualElement name="buttonContainer" style="position: absolute; height: 95%; justify-content: center; align-items: center; width: 90%;">
+            <ui:Button text="#newGame" display-tooltip-when-elided="true" name="button_newGame" class="button-mainMenu" style="color: rgb(224, 181, 102); opacity: 0.45;" />
+            <ui:Button text="#load" display-tooltip-when-elided="true" name="button_loadGame" class="button-mainMenu" style="color: rgb(224, 181, 102); opacity: 0.45; display: none;" />
+            <ui:Button text="#settings" display-tooltip-when-elided="true" name="button_settings" class="button-mainMenu" style="color: rgb(224, 181, 102); opacity: 0.45;" />
+            <ui:Button text="Credits" display-tooltip-when-elided="true" name="button_credits" class="button-mainMenu" style="color: rgb(224, 181, 102); opacity: 0.45;" />
+            <ui:Button text="#quitGame" display-tooltip-when-elided="true" name="button_quitGame" class="button-mainMenu" style="color: rgb(224, 181, 102); opacity: 0.45;" />
+            <ui:Button text="#continue" display-tooltip-when-elided="true" name="button_continueGame" class="button-mainMenu" style="color: rgb(224, 181, 102); opacity: 0.45; display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="right_align" picking-mode="Ignore" style="position: absolute; left: 50%; top: auto; height: 100%; width: 50%; min-width: 50%; min-height: 50%; align-items: center;" />
+    <ui:VisualElement name="credits_panel" style="position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/01_Art/UI/MainMenu/MainMenu_Background.png?fileID=21300000&amp;guid=903a95961f29b5c4692cbbc7b62fd9b4&amp;type=3#MainMenu_Background&apos;); display: flex;">
+        <ui:VisualElement name="top_align" style="position: absolute; width: 100%; height: 15%; align-items: center; justify-content: center;">
+            <ui:Label text="Project Lead:" display-tooltip-when-elided="true" name="projectLead_header" class="credit-header" />
+            <ui:Label text="Felix Günther" display-tooltip-when-elided="true" name="felix_entry" class="credit-entry" />
+        </ui:VisualElement>
+        <ui:VisualElement name="left_align" picking-mode="Ignore" style="position: absolute; left: auto; top: 15%; height: 80%; width: 50%; align-items: stretch; justify-content: flex-start;">
+            <ui:VisualElement name="top_align" class="credit-align">
+                <ui:Label text="Game Production:" display-tooltip-when-elided="true" name="gameProduction_header" class="credit-header" />
+                <ui:Label text="Ann Schomburg - Producer Content Taskforce" display-tooltip-when-elided="true" name="ann_entry" class="credit-entry" />
+                <ui:Label text="Nicolas Gail - Producer Feature Taskforce" display-tooltip-when-elided="true" name="nicolas_entry" class="credit-entry" />
+            </ui:VisualElement>
+            <ui:VisualElement name="middle_align" class="credit-align">
+                <ui:Label text="Game Programming:" display-tooltip-when-elided="true" name="gameProgramming_header" class="credit-header" />
+                <ui:Label text="James E. Ferreira Monteiro - Building System, Technical Art" display-tooltip-when-elided="true" name="james_entry" class="credit-entry" />
+                <ui:Label text="Markus Dullnig - Economy System" display-tooltip-when-elided="true" name="markus_entry" class="credit-entry" />
+                <ui:Label text="Daniel Scherer - User Interface" display-tooltip-when-elided="true" name="daniel_entry" class="credit-entry" />
+            </ui:VisualElement>
+            <ui:VisualElement name="bottom_align" class="credit-align">
+                <ui:Label text="Game Design:" display-tooltip-when-elided="true" name="gameDesign_header" class="credit-header" />
+                <ui:Label text="Beat Baenzinger - Concept &amp; Balancing" display-tooltip-when-elided="true" name="beat_entry" class="credit-entry" />
+                <ui:Label text="Lisa Bartel - Quest &amp; Narrative Design" display-tooltip-when-elided="true" name="lisa_entry" class="credit-entry" />
+                <ui:Label text="Tobias Buch - Economy Design" display-tooltip-when-elided="true" name="tobias_entry" class="credit-entry" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right_align" picking-mode="Ignore" style="position: absolute; left: 50%; top: 15%; height: 80%; width: 50%; min-width: 50%; min-height: 50%; align-items: stretch;">
+            <ui:VisualElement name="top_align" class="credit-align">
+                <ui:Label text="3D Art:" display-tooltip-when-elided="true" name="3dArt_header" class="credit-header" />
+                <ui:Label text="Marcel Röhringer - Lead 3D Artist, Modules" display-tooltip-when-elided="true" name="marcel_entry" class="credit-entry" />
+                <ui:Label text="Dariush Sanaye - Vehicles" display-tooltip-when-elided="true" name="dariush_entry" class="credit-entry" />
+                <ui:Label text="Nils Rüger - Visual Product Owner, Modules" display-tooltip-when-elided="true" name="nils_entry" class="credit-entry" />
+                <ui:Label text="Marvin Holzinger - Environment" display-tooltip-when-elided="true" name="marvin_entry" class="credit-entry" />
+            </ui:VisualElement>
+            <ui:VisualElement name="middle_align" class="credit-align">
+                <ui:Label text="2D Art:" display-tooltip-when-elided="true" name="2dArt_header" enable-rich-text="true" class="credit-header" />
+                <ui:Label text="Lea Röchert - Lead 2D Artist" display-tooltip-when-elided="true" name="lea_entry" class="credit-entry" />
+                <ui:Label text="Niklas Damovsky - 2D Concept Artist" display-tooltip-when-elided="true" name="niklas_entry" class="credit-entry" />
+            </ui:VisualElement>
+            <ui:VisualElement name="bottom_align" class="credit-align">
+                <ui:Label text="Externals:" display-tooltip-when-elided="true" name="externals_header" class="credit-header" />
+                <ui:Label text="Hristo Mitev - UI Artist" display-tooltip-when-elided="true" name="hristo_entry" class="credit-entry" />
+                <ui:Label text="Dennis Alp - Environment" display-tooltip-when-elided="true" name="dennis_entry" class="credit-entry" />
+                <ui:Label text="Leonie Straßer - Game Design Support" display-tooltip-when-elided="true" name="leonie_entry" class="credit-entry" />
+                <ui:Label text="Michael Hug - Sound Design" display-tooltip-when-elided="true" name="michael_entry" class="credit-entry" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="creditsBack_button" class="credit-button" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2717cfd450df1d4a8f5ae78b7f102aa, type: 3}
+  m_Name: FactionsInfo
+  m_EditorClassIdentifier: 
+  Factions:
+  - {fileID: 11400000, guid: e10136611ed6d324d95cced207beddb7, type: 2}
+  - {fileID: 11400000, guid: eb4d3233622d4264bbcd0f901f50b567, type: 2}
+  - {fileID: 11400000, guid: c97fc9248debbf143b94d0740f665167, type: 2}
+  - {fileID: 11400000, guid: 4b0396b658a66ca48bde4133d7c175d5, type: 2}
+  - {fileID: 11400000, guid: 9ede5e6eb4f54c148ae9b0a10abe9e23, type: 2}
+  - {fileID: 11400000, guid: 0e5bf13da13ca9849843461f9cbb5372, type: 2}
+  diplomaticQuestThreshold: 0
+  diplomaticTradeThreshhold: 30

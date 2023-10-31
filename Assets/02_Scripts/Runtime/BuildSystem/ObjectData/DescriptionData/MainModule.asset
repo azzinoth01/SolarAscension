@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9ef6c1a92c233489c97b31c0a6416c, type: 3}
+  m_Name: MainModule
+  m_EditorClassIdentifier: 
+  moduleName: Main Module
+  moduleDescription: The Main Module produces its own power & oxygen and supplies
+    the space station with a small basic production.
+  moduleIcon: {fileID: 21300000, guid: e878e19657d7aaa4c8165aee5f3bac82, type: 3}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="tooltip" picking-mode="Ignore" style="align-items: flex-start;">
+        <ui:Label text="This is the Tooltip info" display-tooltip-when-elided="true" name="label_tooltip" picking-mode="Ignore" style="font-size: 20px; background-color: rgba(0, 0, 0, 0.39); color: rgb(255, 255, 255); padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; white-space: normal; -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

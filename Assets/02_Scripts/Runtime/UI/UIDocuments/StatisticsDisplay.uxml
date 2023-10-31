@@ -1,0 +1,167 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/statisticsDisplay.uss?fileID=7433441132597879392&amp;guid=cf377b115d0ece9499e59de38ff276d4&amp;type=3#statisticsDisplay" />
+    <ui:VisualElement name="inputBlocker" style="flex-grow: 1;" />
+    <ui:VisualElement name="panel_statisticsDisplay" style="position: absolute; width: 55%; height: 55%; left: 10%; top: 15%;">
+        <ui:VisualElement name="frame_top" style="width: 100%; height: 7%; flex-direction: row; justify-content: center; align-items: flex-start; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/StatisticsDisplay/StatisticsDisplay_Frame_Top.png?fileID=21300000&amp;guid=b8161b3368ff93c428771499550486f5&amp;type=3#StatisticsDisplay_Frame_Top&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;">
+            <ui:Label text="#statistics" display-tooltip-when-elided="true" name="label_header" style="font-size: 40px; -unity-font-style: bold; margin-left: 20px; color: rgb(255, 255, 255); width: 75%; height: 150%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/StatisticsDisplay/StatisticsDisplay_Header_Background.png?fileID=21300000&amp;guid=20d979a561083124f998d992556cb6d5&amp;type=3#StatisticsDisplay_Header_Background&apos;); -unity-background-scale-mode: scale-to-fit; -unity-text-align: middle-center; flex-direction: row-reverse; align-items: center; justify-content: flex-start; -unity-background-image-tint-color: rgb(100, 100, 100); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&amp;guid=c83ccab64fc8b8b4b93e944d85a3e121&amp;type=2#Kenney_Future SDF&apos;);">
+                <ui:Button display-tooltip-when-elided="true" name="button_closeStatisticsPanel" style="width: 5%; height: 60%; right: 15%; background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/ModulePopup/Delete.png?fileID=21300000&amp;guid=d48062a65d1dd9649b9e2a0143611a4b&amp;type=3#Delete&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:VisualElement name="panel_panelSelectors" style="width: 100%; height: 10%; justify-content: center; flex-direction: row; align-items: center; margin-top: 30px;">
+            <ui:Button text="#production" display-tooltip-when-elided="true" name="button_productionPanel" class="panel-selector" />
+            <ui:Button text="#storage" display-tooltip-when-elided="true" name="button_storagePanel" class="panel-selector" />
+        </ui:VisualElement>
+        <ui:VisualElement name="panel_statisticsPanels" style="width: 100%; height: 75%;">
+            <ui:VisualElement name="panel_production" class="statistics-panel" style="display: flex; align-items: center; justify-content: center;">
+                <ui:VisualElement name="resource_aluminumProduction" class="resource-productionDisplay">
+                    <ui:VisualElement name="aluminum_productionIcon" class="resource-production-icon" />
+                    <ui:VisualElement name="panel_productionInfo" style="width: 85%; height: 100%;">
+                        <ui:VisualElement name="aluminum_consumption" style="width: 100%; height: 50%; justify-content: flex-start; flex-direction: row; align-items: center;">
+                            <ui:Label text="#consumption" display-tooltip-when-elided="true" name="label_aluminumConsumption" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="aluminum_consumptionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="aluminum_consumptionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="aluminum_consumptionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="aluminum_production" style="width: 100%; height: 50%; flex-direction: row; align-items: center;">
+                            <ui:Label text="#production" display-tooltip-when-elided="true" name="label_aluminumProduction" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="aluminum_productionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="aluminum_productionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="aluminum_productionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_waterProduction" class="resource-productionDisplay">
+                    <ui:VisualElement name="water_productionIcon" class="resource-production-icon" />
+                    <ui:VisualElement name="panel_productionInfo" style="width: 85%; height: 100%;">
+                        <ui:VisualElement name="water_consumption" style="width: 100%; height: 50%; justify-content: flex-start; flex-direction: row; align-items: center;">
+                            <ui:Label text="#consumption" display-tooltip-when-elided="true" name="label_waterConsumption" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="water_consumptionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="water_consumptionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="water_consumptionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="water_production" style="width: 100%; height: 50%; flex-direction: row; align-items: center;">
+                            <ui:Label text="#production" display-tooltip-when-elided="true" name="label_waterProduction" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="water_productionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="water_productionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="water_productionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_vegetablesProduction" class="resource-productionDisplay">
+                    <ui:VisualElement name="vegetables_productionIcon" class="resource-production-icon" />
+                    <ui:VisualElement name="panel_productionInfo" style="width: 85%; height: 100%;">
+                        <ui:VisualElement name="vegetables_consumption" style="width: 100%; height: 50%; justify-content: flex-start; flex-direction: row; align-items: center;">
+                            <ui:Label text="#consumption" display-tooltip-when-elided="true" name="label_vegetablesConsumption" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="vegetables_consumptionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="vegetables_consumptionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="vegetables_consumptionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="vegetables_production" style="width: 100%; height: 50%; flex-direction: row; align-items: center;">
+                            <ui:Label text="#production" display-tooltip-when-elided="true" name="label_vegetablesProduction" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="vegetables_productionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="vegetables_productionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="vegetables_productionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_oilProduction" class="resource-productionDisplay">
+                    <ui:VisualElement name="oil_productionIcon" class="resource-production-icon" />
+                    <ui:VisualElement name="panel_productionInfo" style="width: 85%; height: 100%;">
+                        <ui:VisualElement name="oil_consumption" style="width: 100%; height: 50%; justify-content: flex-start; flex-direction: row; align-items: center;">
+                            <ui:Label text="#consumption" display-tooltip-when-elided="true" name="label_oilConsumption" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="oil_consumptionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="oil_consumptionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="oil_consumptionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="oil_production" style="width: 100%; height: 50%; flex-direction: row; align-items: center;">
+                            <ui:Label text="#production" display-tooltip-when-elided="true" name="label_oilProduction" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="oil_productionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="oil_productionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="oil_productionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_biopolymereProduction" class="resource-productionDisplay">
+                    <ui:VisualElement name="biopolymere_productionIcon" class="resource-production-icon" />
+                    <ui:VisualElement name="panel_productionInfo" style="width: 85%; height: 100%;">
+                        <ui:VisualElement name="biopolymere_consumption" style="width: 100%; height: 50%; justify-content: flex-start; flex-direction: row; align-items: center;">
+                            <ui:Label text="#consumption" display-tooltip-when-elided="true" name="label_biopolymereConsumption" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="biopolymere_consumptionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="biopolymere_consumptionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="biopolymere_consumptionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="biopolymere_production" style="width: 100%; height: 50%; flex-direction: row; align-items: center;">
+                            <ui:Label text="#production" display-tooltip-when-elided="true" name="label_biopolymereProduction" class="resource-productionLabel" style="color: rgba(250, 250, 250, 255);" />
+                            <ui:VisualElement name="biopolymere_productionInfo" class="resource-consumptionBalance-display">
+                                <ui:VisualElement name="background" class="progressBar-hor-background" />
+                                <ui:VisualElement name="biopolymere_productionBar" class="resource-consumptionBalance-bar" />
+                            </ui:VisualElement>
+                            <ui:Label text="1000000/1000000" display-tooltip-when-elided="true" name="biopolymere_productionBalance" class="resource-productionBalance-label" style="color: rgba(250, 250, 250, 255);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="panel_storage" class="statistics-panel" style="align-items: flex-start; flex-direction: row; justify-content: center; flex-wrap: wrap; display: flex;">
+                <ui:VisualElement name="resource_aluminumStorage" class="resource-storageDisplay">
+                    <ui:VisualElement name="aluminum-icon" class="resource-icon" />
+                    <ui:Label text="10000/10000" display-tooltip-when-elided="true" name="aluminum_storageBalance" class="resource-balanceLabel" style="color: rgba(250, 250, 250, 255);" />
+                    <ui:VisualElement name="aluminum_BalanceDisplay" class="resource-balance-display resource-balanceDisplay">
+                        <ui:VisualElement name="aluminum_BalanceBackground" class="resource-balanceDisplay-background" />
+                        <ui:VisualElement name="aluminum_storageBar" class="resource-balanceDisplay-bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_waterStorage" class="resource-storageDisplay">
+                    <ui:VisualElement name="water-icon" class="resource-icon" />
+                    <ui:Label text="10000/10000" display-tooltip-when-elided="true" name="water_storageBalance" class="resource-balanceLabel" style="color: rgba(250, 250, 250, 255);" />
+                    <ui:VisualElement name="water_BalanceDisplay" class="resource-balance-display resource-balanceDisplay">
+                        <ui:VisualElement name="water_BalanceBackground" class="resource-balanceDisplay-background" />
+                        <ui:VisualElement name="water_storageBar" class="resource-balanceDisplay-bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_oilStorage" class="resource-storageDisplay">
+                    <ui:VisualElement name="oil-icon" class="resource-icon" />
+                    <ui:Label text="10000/10000" display-tooltip-when-elided="true" name="oil_storageBalance" class="resource-balanceLabel" style="color: rgba(250, 250, 250, 255);" />
+                    <ui:VisualElement name="oil_BalanceDisplay" class="resource-balance-display resource-balanceDisplay">
+                        <ui:VisualElement name="oil_BalanceBackground" class="resource-balanceDisplay-background" />
+                        <ui:VisualElement name="oil_storageBar" class="resource-balanceDisplay-bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_vegetablesStorage" class="resource-storageDisplay">
+                    <ui:VisualElement name="vegetables-icon" class="resource-icon" />
+                    <ui:Label text="10000/10000" display-tooltip-when-elided="true" name="vegetables_storageBalance" class="resource-balanceLabel" style="color: rgba(250, 250, 250, 255);" />
+                    <ui:VisualElement name="vegetables_BalanceDisplay" class="resource-balance-display resource-balanceDisplay">
+                        <ui:VisualElement name="vegetables_BalanceBackground" class="resource-balanceDisplay-background" />
+                        <ui:VisualElement name="vegetables_storageBar" class="resource-balanceDisplay-bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="resource_biopolymereStorage" class="resource-storageDisplay">
+                    <ui:VisualElement name="biopolymere-icon" class="resource-icon" />
+                    <ui:Label text="10000/10000" display-tooltip-when-elided="true" name="biopolymere_storageBalance" class="resource-balanceLabel" style="color: rgba(250, 250, 250, 255);" />
+                    <ui:VisualElement name="biopolymere_BalanceDisplay" class="resource-balance-display resource-balanceDisplay">
+                        <ui:VisualElement name="biopolymere_BalanceBackground" class="resource-balanceDisplay-background" />
+                        <ui:VisualElement name="biopolymere_storageBar" class="resource-balanceDisplay-bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="frame_bottom" style="width: 100%; height: 7%; flex-direction: row; justify-content: center; align-items: center; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/StatisticsDisplay/StatisticsDisplay_Frame_Down.png?fileID=21300000&amp;guid=91d4d9b3336105b478648cce528af21a&amp;type=3#StatisticsDisplay_Frame_Down&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+    </ui:VisualElement>
+</ui:UXML>

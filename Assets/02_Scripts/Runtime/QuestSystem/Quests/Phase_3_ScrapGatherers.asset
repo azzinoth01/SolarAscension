@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56755a1ec2f0a4547923566c614143fd, type: 3}
+  m_Name: Phase_3_ScrapGatherers
+  m_EditorClassIdentifier: 
+  questDialogue:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 3885
+    highId: 16777216
+  questGiver:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 285
+    highId: 16777216
+  faction: {fileID: 11400000, guid: 4b0396b658a66ca48bde4133d7c175d5, type: 2}
+  diplomaticGravity: 0
+  trigger:
+    type: 2
+    activationDelay: 0
+    triggerQuest: {fileID: 11400000, guid: c71e102998c41e94bb66b2395b8fe6cb, type: 2}
+    TimePassed: 0
+  goal:
+    type: 20
+    amountNeeded: 2
+    trackGoal: 0
+  reward:
+    rewards: []

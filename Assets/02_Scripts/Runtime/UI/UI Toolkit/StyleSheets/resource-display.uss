@@ -1,0 +1,32 @@
+.resourceDisplay {
+    flex-grow: 1;
+    min-width: 50%;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 5px;
+    max-width: 50%;
+    flex-direction: row;
+    min-height: 30%;
+}
+
+.resourceLabel {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    flex-wrap: wrap;
+    width: 65%;
+    white-space: normal;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2px;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+}
+
+.resourceIcon {
+    -unity-background-scale-mode: scale-to-fit;
+    height: 90%;
+    width: 20%;
+    margin-left: 10px;
+}

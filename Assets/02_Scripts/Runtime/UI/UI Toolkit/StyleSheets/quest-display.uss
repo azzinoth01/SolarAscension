@@ -1,0 +1,43 @@
+.button-quest {
+    width: 50%;
+    position: absolute;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+    background-color: rgb(219, 216, 216);
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 75%;
+}
+
+.button-quest:hover {
+    -unity-background-image-tint-color: rgb(219, 216, 221);
+    background-color: rgba(234, 188, 95, 255);
+}
+
+.button-quest:active {
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    background-color: rgba(234, 188, 95, 255);
+}
+
+.quest-diary-selector {
+    width: 35%;
+    height: 80%;
+    background-color: rgb(219, 216, 216);
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+}
+
+.quest-diary-selector:hover {
+    background-color: rgba(234, 188, 95, 255);
+}

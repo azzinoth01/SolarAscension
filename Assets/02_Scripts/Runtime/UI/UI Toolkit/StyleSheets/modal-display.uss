@@ -1,0 +1,27 @@
+.modalDisplay-background {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.modalDisplay-button {
+    width: 30%;
+    height: 40%;
+    background-color: rgb(100, 100, 100);
+    font-size: 25px;
+    -unity-font-style: bold;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+}
+
+.modalDisplay-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+}

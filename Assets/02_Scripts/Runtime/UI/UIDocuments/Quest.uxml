@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_Scripts/Runtime/UI/UI%20Toolkit/StyleSheets/quest-display.uss?fileID=7433441132597879392&amp;guid=f4b3f2502f0dd6b4b9ee4319292f1768&amp;type=3#quest-display" />
+    <ui:VisualElement name="right_align" picking-mode="Ignore" style="height: 100%; width: 30%; left: 70%; align-items: flex-end; position: absolute;">
+        <ui:VisualElement name="quest_modal" style="width: 60%; height: 35%; align-items: center;">
+            <ui:VisualElement name="background_frame" style="position: absolute; width: 100%; height: 85%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Ingame_Frame_Right.png?fileID=21300000&amp;guid=721dea8793bf3e74db4ead7739be232b&amp;type=3#Ingame_Frame_Right&apos;); -unity-background-image-tint-color: rgb(102, 106, 106); opacity: 0.55;" />
+            <ui:VisualElement name="portrait_panel" style="width: 85%; height: 30%; flex-direction: row; justify-content: space-around; align-items: flex-end; margin-top: 20px;">
+                <ui:VisualElement name="speaker_portrait" style="height: 90%; width: 35%; background-image: url(&apos;project://database/Assets/01_Art/UI/TitleScreen/TitleScreen_Background.png?fileID=21300000&amp;guid=f5992081493011c4186ab698cfb6be2b&amp;type=3#TitleScreen_Background&apos;);" />
+                <ui:VisualElement name="faction_portrait" style="height: 90%; width: 35%; background-image: url(&apos;project://database/Assets/01_Art/UI/TitleScreen/TitleScreen_Background.png?fileID=21300000&amp;guid=f5992081493011c4186ab698cfb6be2b&amp;type=3#TitleScreen_Background&apos;); visibility: hidden;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="dialogue_panel" style="width: 90%; height: auto; align-items: center; max-height: 35%;">
+                <ui:Label text="This is the dialogue text" display-tooltip-when-elided="true" name="label_dialogue" style="color: rgb(255, 255, 255); font-size: 13px; width: 90%; white-space: normal; margin-top: 2%; margin-bottom: 2%; height: auto; -unity-background-image-tint-color: rgb(219, 216, 216); -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_panel" style="width: 80%; height: 10%; flex-direction: row; flex-wrap: nowrap; position: absolute; top: 70%;">
+                <ui:Button text="#accept" display-tooltip-when-elided="true" name="button_acceptQuest" class="button-quest" style="-unity-background-image-tint-color: rgb(255, 255, 255);" />
+                <ui:Button text="#decline" display-tooltip-when-elided="true" name="button_declineQuest" class="button-quest" />
+                <ui:Button text="#claim" display-tooltip-when-elided="true" name="button_claimQuest" class="button-quest" />
+                <ui:Button text="#next" display-tooltip-when-elided="true" name="button_next" class="button-quest" />
+                <ui:Button text="#close" display-tooltip-when-elided="true" name="button_close" class="button-quest" style="left: 50%; overflow: hidden;" />
+                <ui:Button text="#complete" display-tooltip-when-elided="true" name="button_complete" enable-rich-text="false" class="button-quest" style="left: 50%;" />
+                <ui:Button text="#skip" display-tooltip-when-elided="true" name="button_skip" enable-rich-text="false" class="button-quest" style="left: 50%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="left_align" picking-mode="Ignore" style="height: 100%; width: 30%; position: absolute; flex-direction: row;">
+        <ui:VisualElement name="left_margin" picking-mode="Ignore" style="height: 100%; width: 10%;" />
+        <ui:VisualElement name="quest_diary" style="height: 40%; top: 35%; width: 50%; align-items: flex-end; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Quest/QuestDiary_Background.png?fileID=21300000&amp;guid=5ada315d0a8b06346ad00efde6262750&amp;type=3#QuestDiary_Background&apos;); -unity-background-image-tint-color: rgba(102, 106, 106, 0.39); -unity-background-scale-mode: stretch-to-fill; opacity: 1; overflow: visible;">
+            <ui:VisualElement name="background_frame" picking-mode="Ignore" style="position: absolute; width: 110%; height: 110%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/Quest/QuestDiary_Background_Frame.png?fileID=21300000&amp;guid=02a5b55f754456d4cac28443eaef4c10&amp;type=3#QuestDiary_Background_Frame&apos;); -unity-background-scale-mode: stretch-to-fill; top: -20px; left: -5px; -unity-background-image-tint-color: rgb(250, 250, 250); opacity: 0.55;" />
+            <ui:Label text="#questDiary" display-tooltip-when-elided="true" name="label_header" style="color: rgb(255, 255, 255); font-size: 20px; -unity-font-style: bold; width: 100%; -unity-text-align: middle-center; height: 8%; -unity-background-image-tint-color: rgb(219, 216, 216); -unity-font: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&amp;guid=6de7e15782c85134890019d82a150567&amp;type=3#GratiaSans-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&amp;guid=207c5ad8a9b5df14ba5330972a05bf0c&amp;type=2#GratiaSans-Regular SDF&apos;);" />
+            <ui:VisualElement name="listSelection" style="width: 95%; height: 10%; justify-content: center; align-items: flex-end; flex-direction: row;">
+                <ui:Button text="#active" display-tooltip-when-elided="true" name="button_activeQuestList" class="quest-diary-selector" />
+                <ui:Button text="#done" display-tooltip-when-elided="true" name="button_doneQuestList" class="quest-diary-selector" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="questDiary_listView" style="max-height: 82%; min-height: 0; width: 90%; height: 70%; margin-top: 15px;" />
+            <ui:Button text="X" display-tooltip-when-elided="true" name="button_closeQuestDiary" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; position: absolute; top: 2%; left: 87%; height: 5%; width: 3%; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; -unity-font-style: bold; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; color: rgb(102, 106, 106); -unity-background-image-tint-color: rgb(102, 106, 106); background-color: rgb(219, 216, 216);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

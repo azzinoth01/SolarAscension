@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86251468c69598640b0ddfc0cdb3b358, type: 3}
+  m_Name: MarsonIndustries
+  m_EditorClassIdentifier: 
+  factionData:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 3115
+    highId: 16777216
+  resources: []
+  playerRelation: 0
+  allies:
+  - faction: {fileID: 11400000, guid: eb4d3233622d4264bbcd0f901f50b567, type: 2}
+    diplomaticStatus: 80
+  competitors:
+  - faction: {fileID: 11400000, guid: e10136611ed6d324d95cced207beddb7, type: 2}
+    diplomaticStatus: -30
+  - faction: {fileID: 11400000, guid: 0e5bf13da13ca9849843461f9cbb5372, type: 2}
+    diplomaticStatus: -20

@@ -1,0 +1,272 @@
+.camera-settings {
+}
+
+.module-selector {
+    height: 70%;
+    width: 6%;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgba(27, 27, 27, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.module-selector:hover {
+    -unity-background-image-tint-color: rgb(255, 200, 150);
+}
+
+.tier-selector {
+    position: relative;
+    width: 15%;
+    height: 90%;
+    font-size: 20px;
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_TierSelection.png?fileID=21300000&guid=219fb8b4e733c7a46bdd3dd69ef0c64d&type=3#BuildMenu_TierSelection');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    opacity: 1;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.tier-selector:hover {
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.tier-selector-selected {
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.resource-display {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 7px;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.resource-label {
+    height: 80%;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-left;
+    font-size: 15px;
+    width: 65%;
+    margin-left: 5px;
+    -unity-font-style: bold;
+    margin-right: 5px;
+    -unity-font: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular.ttf?fileID=12800000&guid=6de7e15782c85134890019d82a150567&type=3#GratiaSans-Regular');
+    -unity-font-definition: url('project://database/Assets/01_Art/Font/GratiaSans/GratiaSans-Regular%20SDF.asset?fileID=11400000&guid=207c5ad8a9b5df14ba5330972a05bf0c&type=2#GratiaSans-Regular SDF');
+}
+
+.resource-icon {
+    height: 80%;
+    width: 22%;
+    margin-left: 0;
+    -unity-background-image-tint-color: rgb(0, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.statistics-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    color: rgba(27, 27, 27, 0);
+}
+
+.diplomacy-button {
+    width: 75%;
+    height: 40%;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/1_DIPLOMACY_OFF.png?fileID=21300000&guid=d6fd206e7beb97a4abb55fa3b4cf8618&type=3#1_DIPLOMACY_OFF');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.diplomacy-button:hover {
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.diplomacy-button-selected {
+    width: 75%;
+    height: 40%;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+    background-image: url('scale-to-fit');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.quest-button {
+    width: 75%;
+    height: 40%;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/2_QUEST_OFF.png?fileID=21300000&guid=3657cfe293ea10844860a533b498ad0e&type=3#2_QUEST_OFF');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.quest-button:hover {
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.quest-button-selected {
+    width: 75%;
+    height: 40%;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+    background-image: url('scale-to-fit');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cameraFocus-button {
+    width: 75%;
+    height: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/3_FOKUS_OFF.png?fileID=21300000&guid=236553919addc334bb1ff1e8c1122020&type=3#3_FOKUS_OFF');
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cameraFocus-button:hover {
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.cameraReset-button {
+    width: 75%;
+    height: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/4_CAMERA_OFF.png?fileID=21300000&guid=e8d938c57fda0d24a9aea062531bb4a8&type=3#4_CAMERA_OFF');
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cameraReset-button:hover {
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.build-menu-button {
+    width: 25%;
+    flex-shrink: 1;
+    height: auto;
+    position: relative;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    opacity: 1;
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_ButtonOxygenOverlay.png?fileID=21300000&guid=ad545a2945196a54d9a94f907ec23c29&type=3#BuildMenu_ButtonOxygenOverlay');
+}
+
+.build-menu-button:hover {
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+}
+
+.build-menu-button-selected {
+    width: 25%;
+    flex-shrink: 1;
+    height: auto;
+    position: relative;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    opacity: 1;
+    -unity-background-image-tint-color: rgb(224, 181, 102);
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/BuildMenu/BuildMenu_ButtonOxygenOverlay.png?fileID=21300000&guid=ad545a2945196a54d9a94f907ec23c29&type=3#BuildMenu_ButtonOxygenOverlay');
+}
+
+.module-input-blocker {
+    height: 101%;
+    width: 95%;
+    left: 3%;
+    background-color: rgba(0, 0, 0, 0.86);
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.warning-close-button {
+    position: absolute;
+    width: 7%;
+    height: 150%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -unity-font-style: bold;
+    left: 87%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 20%;
+    background-color: rgba(219, 216, 216, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-image: url('project://database/Assets/01_Art/UI/Ingame/ModulePopup/Delete.png?fileID=21300000&guid=d48062a65d1dd9649b9e2a0143611a4b&type=3#Delete');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(219, 216, 216);
+}
+
+.warning-close-button:hover {
+    -unity-background-image-tint-color: rgb(255, 200, 150);
+}

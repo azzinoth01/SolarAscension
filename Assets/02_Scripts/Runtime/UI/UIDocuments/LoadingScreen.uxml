@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="input_blocker" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.39); position: absolute; width: 100%; height: 100%;" />
+    <ui:VisualElement name="center_align" style="position: absolute; width: 50%; height: 50%; left: 25%; top: 25%; align-items: center; justify-content: center;">
+        <ui:Label text="#loading" display-tooltip-when-elided="true" name="label_loading" style="-unity-font-definition: url(&apos;project://database/Assets/01_Art/Font/Kenney_Future/Kenney_Future%20SDF.asset?fileID=11400000&amp;guid=c83ccab64fc8b8b4b93e944d85a3e121&amp;type=2#Kenney_Future SDF&apos;); color: rgb(255, 255, 255); font-size: 50px; margin-bottom: 10px;" />
+        <ui:VisualElement name="progressBar_Background" style="width: 102%; height: 14%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/StatisticsDisplay/StatisticsDisplay_ProgressBar_Background.png?fileID=21300000&amp;guid=5fce65e7fec63544b99dd3672875ae5e&amp;type=3#StatisticsDisplay_ProgressBar_Background&apos;); -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(100, 100, 100);" />
+        <ui:VisualElement name="progressBar_holder" style="position: absolute; width: 100%; height: 10%; top: 52%;">
+            <ui:VisualElement name="progressBar" style="position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/01_Art/UI/Ingame/StatisticsDisplay/StatisticsDisplay_ProgressBar.png?fileID=21300000&amp;guid=b5914fdbe32439342b4d5666c28bd0ff&amp;type=3#StatisticsDisplay_ProgressBar&apos;); -unity-background-image-tint-color: rgb(224, 181, 102);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d77f88aa98ff48bdba45043af666a, type: 3}
+  m_Name: PopulationModule
+  m_EditorClassIdentifier: 
+  gridSize:
+    _x: 23
+    _y: 23
+    _z: 3
+  linkCenter:
+    _x: 11
+    _y: 11
+    _z: 1
+  links:
+  - localCoordinate:
+      _x: 11
+      _y: 11
+      _z: 0
+    connectorDirection: 2
+  - localCoordinate:
+      _x: 11
+      _y: 11
+      _z: 2
+    connectorDirection: 16
+  attachmentConfigs:
+  - attachmentTransforms:
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 0}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 10.285713}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 20.571428}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 30.85715}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 41.14286}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 51.428574}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 61.7143}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 71.99999}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 82.28571}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 92.57143}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 102.85714}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 113.14286}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 123.42858}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 133.7143}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 144}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 154.28572}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 164.57143}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 174.85715}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 185.14285}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 195.42859}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 205.71428}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 216.00002}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 226.28572}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 236.57144}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 246.85716}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 257.14288}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 267.42856}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 277.7143}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 288}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 298.2857}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 308.57144}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 318.85718}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 329.14285}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 339.4286}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: 0, z: 349.7143}
+    - position: {x: 55, y: 55, z: 5}
+      rotation: {x: -0, y: -0, z: 0.000010017912}
+  attachmentData:
+  - {fileID: 11400000, guid: 617bb83aba820d7408eaac8ec37bf716, type: 2}
+  mesh: {fileID: 6728315771042523955, guid: ea34a1f21b30c7145b0fd52608fac94d, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 8f9a51aaea9d9f345bf841abedab67c6, type: 2}
+  - {fileID: 2100000, guid: c5b4f9115cb89794795f6b6ea8a62b26, type: 2}
+  - {fileID: 2100000, guid: 598a685c4ad82c1448b1072435b1fdcc, type: 2}
+  previewMaterials:
+  - {fileID: 2100000, guid: 3e4e3464b7cd4cf43b6dc3f2cea78398, type: 2}
+  - {fileID: 2100000, guid: 2214b31d51262034ba380462684e9bb4, type: 2}
+  - {fileID: 2100000, guid: 598a685c4ad82c1448b1072435b1fdcc, type: 2}
+  buildSfxName: build_population
+  selectSfxName: module_population

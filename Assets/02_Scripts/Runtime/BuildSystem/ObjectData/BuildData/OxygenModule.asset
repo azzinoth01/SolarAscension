@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d77f88aa98ff48bdba45043af666a, type: 3}
+  m_Name: OxygenModule
+  m_EditorClassIdentifier: 
+  gridSize:
+    _x: 3
+    _y: 7
+    _z: 3
+  linkCenter:
+    _x: 1
+    _y: 5
+    _z: 1
+  links:
+  - localCoordinate:
+      _x: 1
+      _y: 5
+      _z: 0
+    connectorDirection: 2
+  - localCoordinate:
+      _x: 1
+      _y: 5
+      _z: 2
+    connectorDirection: 16
+  - localCoordinate:
+      _x: 0
+      _y: 5
+      _z: 1
+    connectorDirection: 1
+  - localCoordinate:
+      _x: 2
+      _y: 5
+      _z: 1
+    connectorDirection: 32
+  attachmentConfigs:
+  - attachmentTransforms: []
+  attachmentData: []
+  mesh: {fileID: 9204571345013156533, guid: 35db0fb934907f44aaba2fdb95bfab7f, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 598a685c4ad82c1448b1072435b1fdcc, type: 2}
+  - {fileID: 2100000, guid: 1b4562c1fdbee844bb2ebef92d2ee55e, type: 2}
+  previewMaterials:
+  - {fileID: 2100000, guid: 75750798525aafe48980bef2d64c5656, type: 2}
+  - {fileID: 2100000, guid: bdd8814834abd8b4994cfdcd104890e6, type: 2}
+  buildSfxName: action_moduleBuild
+  selectSfxName: module_oxygem
