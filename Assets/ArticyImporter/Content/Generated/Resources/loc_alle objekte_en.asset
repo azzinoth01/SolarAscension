@@ -1,0 +1,577 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1080164415, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: loc_alle objekte_en
+  m_EditorClassIdentifier: 
+  mLocaKeys:
+  - $Template.DefaultSupportingCharacterTemplate.DisplayName
+  - $Feature.ArticyDefaultCharacterBasic.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Age.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Species.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.BornIn.DisplayName
+  - $Enum.Sex.DisplayName
+  - $Enum.Sex.Male.DisplayName
+  - $Enum.Sex.Female.DisplayName
+  - $Enum.Sex.Unknown.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Sex.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Occupation.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Accent.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Personality.DisplayName
+  - $Property.ArticyDefaultCharacterBasic.Appearance.DisplayName
+  - $Template.DefaultMainCharacterTemplate.DisplayName
+  - $Feature.ArticyDefaultCharacterExtended.DisplayName
+  - $Property.ArticyDefaultCharacterExtended.Motivation.DisplayName
+  - $Property.ArticyDefaultCharacterExtended.InnerConflict.DisplayName
+  - $Property.ArticyDefaultCharacterExtended.Skills.DisplayName
+  - $Property.ArticyDefaultCharacterExtended.Fears.DisplayName
+  - $Property.ArticyDefaultCharacterExtended.Habits.DisplayName
+  - $Property.ArticyDefaultCharacterExtended.FurtherDetails.DisplayName
+  - $Template.DefaultFirmCharacterTemplate.DisplayName
+  - $Feature.DefaultExtendedCharacterTemplate.DisplayName
+  - $Property.DefaultExtendedCharacterTemplate.Motivation.DisplayName
+  - $Property.DefaultExtendedCharacterTemplate.InnerConflict.DisplayName
+  - $Property.DefaultExtendedCharacterTemplate.Skills.DisplayName
+  - $Property.DefaultExtendedCharacterTemplate.Fears.DisplayName
+  - $Property.DefaultExtendedCharacterTemplate.Habits.DisplayName
+  - $Property.DefaultExtendedCharacterTemplate.FurtherDetails.DisplayName
+  - $Feature.DefaultBasicCharacterTemplate.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.Age.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.Nationality.DisplayName
+  - $Enum.Accent.DisplayName
+  - $Enum.Accent.Male.DisplayName
+  - $Enum.Accent.Female.DisplayName
+  - $Enum.Accent.Unknown.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.Accent.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.Faction.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.VoiceActor.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.Personality.DisplayName
+  - $Property.DefaultBasicCharacterTemplate.ShortInfo.DisplayName
+  - $Template.DefaultSupportingCharacterTemplate_02.DisplayName
+  - $Template.DefaultFirmCharacterShort.DisplayName
+  - $Template.DefaultFactionTemplate.DisplayName
+  - $Feature.FactionTemplateExtended.DisplayName
+  - $Enum.AllyHighDiplomacy.DisplayName
+  - $Enum.AllyHighDiplomacy.Astraea_Technologies.DisplayName
+  - $Enum.AllyHighDiplomacy.Athos_Trust_Society.DisplayName
+  - $Enum.AllyHighDiplomacy.Delling_Institute.DisplayName
+  - $Enum.AllyHighDiplomacy.Expanse_Inc.DisplayName
+  - $Enum.AllyHighDiplomacy.Marson_Industries.DisplayName
+  - $Enum.AllyHighDiplomacy.Silvert_Transnational.DisplayName
+  - $Property.FactionTemplateExtended.AllyHighDiplomacy.DisplayName
+  - $Property.FactionTemplateExtended.ReasonHighAlly.DisplayName
+  - $Property.FactionTemplateExtended.ReasonLowAlly.DisplayName
+  - $Property.FactionTemplateExtended.ReasonHighCompetition.DisplayName
+  - $Property.FactionTemplateExtended.ReasonLowCompetition.DisplayName
+  - $Enum.AllyLowDiplomacy.DisplayName
+  - $Enum.AllyLowDiplomacy.Astraea_Technologies.DisplayName
+  - $Enum.AllyLowDiplomacy.Athos_Trust_Society.DisplayName
+  - $Enum.AllyLowDiplomacy.Delling_Institute.DisplayName
+  - $Enum.AllyLowDiplomacy.Expanse_Inc.DisplayName
+  - $Enum.AllyLowDiplomacy.Marson_Industries.DisplayName
+  - $Enum.AllyLowDiplomacy.Silvert_Transnational.DisplayName
+  - $Property.FactionTemplateExtended.AllyLowDiplomacy.DisplayName
+  - $Enum.RivalHighDiplomacy.DisplayName
+  - $Enum.RivalHighDiplomacy.Astraea_Technologies.DisplayName
+  - $Enum.RivalHighDiplomacy.Athos_Trust_Society.DisplayName
+  - $Enum.RivalHighDiplomacy.Delling_Institute.DisplayName
+  - $Enum.RivalHighDiplomacy.Expanse_Inc.DisplayName
+  - $Enum.RivalHighDiplomacy.Marson_Industries.DisplayName
+  - $Enum.RivalHighDiplomacy.Silvert_Transnational.DisplayName
+  - $Property.FactionTemplateExtended.RivalHighDiplomacy.DisplayName
+  - $Enum.RivalLowDiplomacy.DisplayName
+  - $Enum.RivalLowDiplomacy.Astraea_Technologies.DisplayName
+  - $Enum.RivalLowDiplomacy.Athos_Trust_Society.DisplayName
+  - $Enum.RivalLowDiplomacy.Delling_Institute.DisplayName
+  - $Enum.RivalLowDiplomacy.Expanse_Inc.DisplayName
+  - $Enum.RivalLowDiplomacy.Marson_Industries.DisplayName
+  - $Enum.RivalLowDiplomacy.Silvert_Transnational.DisplayName
+  - $Property.FactionTemplateExtended.RivalLowDiplomacy.DisplayName
+  - $Property.FactionTemplateExtended.ResourceWant.DisplayName
+  - $Property.FactionTemplateExtended.ResourceGive.DisplayName
+  - $Feature.DefaultFactionTemplate.DisplayName
+  - $Property.DefaultFactionTemplate.FactionLogo.DisplayName
+  - $Property.DefaultFactionTemplate.FactionName.DisplayName
+  - $Enum.FactionCharacterContact.DisplayName
+  - $Enum.FactionCharacterContact.Caspar_Fisk.DisplayName
+  - $Enum.FactionCharacterContact.Chrisjen_Nygaard.DisplayName
+  - $Enum.FactionCharacterContact.Mariya_Aishatu.DisplayName
+  - $Enum.FactionCharacterContact.Nathan_Burton.DisplayName
+  - $Enum.FactionCharacterContact.Peter_Voigt.DisplayName
+  - $Enum.FactionCharacterContact.Tamura_Katsuro.DisplayName
+  - $Property.DefaultFactionTemplate.FactionCharacterContact.DisplayName
+  - $Property.DefaultFactionTemplate.FactionCharacteristic.DisplayName
+  - FFr_43261454.DisplayName
+  - FFr_43261454.Text
+  - FFr_E52AA397.DisplayName
+  - FFr_E52AA397.Text
+  - Dlg_74C2A65A.DisplayName
+  - Dlg_74C2A65A.Text
+  - Dlg_6C5F5D89.DisplayName
+  - Dlg_6C5F5D89.Text
+  - Dlg_84EDE581.DisplayName
+  - Dlg_84EDE581.Text
+  - Dlg_AF538904.DisplayName
+  - Dlg_AF538904.Text
+  - Dlg_A7C021BF.DisplayName
+  - Dlg_A7C021BF.Text
+  - Dlg_6C5F5930.DisplayName
+  - Dlg_6C5F5930.Text
+  - Dlg_478D1CEA.DisplayName
+  - Dlg_478D1CEA.Text
+  - DFr_218765EF.PreviewText
+  - DFr_218765EF.StageDirections
+  - DFr_218765EF.Text
+  - DFr_FA49C364.PreviewText
+  - DFr_FA49C364.StageDirections
+  - DFr_FA49C364.Text
+  - DFr_75B65192.PreviewText
+  - DFr_75B65192.StageDirections
+  - DFr_75B65192.Text
+  - DFr_A903E1FE.PreviewText
+  - DFr_A903E1FE.StageDirections
+  - DFr_A903E1FE.Text
+  - DFr_51927AE7.PreviewText
+  - DFr_51927AE7.StageDirections
+  - DFr_51927AE7.Text
+  - DFr_75C32A86.PreviewText
+  - DFr_75C32A86.StageDirections
+  - DFr_75C32A86.Text
+  - DFr_02B3E4AF.PreviewText
+  - DFr_02B3E4AF.StageDirections
+  - DFr_02B3E4AF.Text
+  - DFr_8B8392F6.PreviewText
+  - DFr_8B8392F6.StageDirections
+  - DFr_8B8392F6.Text
+  - DFr_53575B87.PreviewText
+  - DFr_53575B87.StageDirections
+  - DFr_53575B87.Text
+  - DFr_F41FE5ED.PreviewText
+  - DFr_F41FE5ED.StageDirections
+  - DFr_F41FE5ED.Text
+  - DFr_84CB639E.PreviewText
+  - DFr_84CB639E.StageDirections
+  - DFr_84CB639E.Text
+  - DFr_5CD8CB1B.PreviewText
+  - DFr_5CD8CB1B.StageDirections
+  - DFr_5CD8CB1B.Text
+  - DFr_CFCF5B32.PreviewText
+  - DFr_CFCF5B32.StageDirections
+  - DFr_CFCF5B32.Text
+  - DFr_6C844BE4.PreviewText
+  - DFr_6C844BE4.StageDirections
+  - DFr_6C844BE4.Text
+  - DFr_F11B315F.PreviewText
+  - DFr_F11B315F.StageDirections
+  - DFr_F11B315F.Text
+  - DFr_BEB14983.PreviewText
+  - DFr_BEB14983.StageDirections
+  - DFr_BEB14983.Text
+  - DFr_F2BAE4B2.PreviewText
+  - DFr_F2BAE4B2.StageDirections
+  - DFr_F2BAE4B2.Text
+  - DFr_017EECC8.PreviewText
+  - DFr_017EECC8.StageDirections
+  - DFr_017EECC8.Text
+  - DFr_68F55FCF.PreviewText
+  - DFr_68F55FCF.StageDirections
+  - DFr_68F55FCF.Text
+  - DFr_FB6D1E44.PreviewText
+  - DFr_FB6D1E44.StageDirections
+  - DFr_FB6D1E44.Text
+  - DFr_9BA3B5A4.PreviewText
+  - DFr_9BA3B5A4.StageDirections
+  - DFr_9BA3B5A4.Text
+  - DFr_673F2F9C.PreviewText
+  - DFr_673F2F9C.StageDirections
+  - DFr_673F2F9C.Text
+  - DFr_02F349AC.PreviewText
+  - DFr_02F349AC.StageDirections
+  - DFr_02F349AC.Text
+  - Ntt_5216FE19.DisplayName
+  - Ntt_5216FE19.Text
+  - Ntt_5216FE19.DefaultBasicCharacterTemplate.Nationality
+  - Ntt_5216FE19.DefaultBasicCharacterTemplate.Faction
+  - Ntt_5216FE19.DefaultBasicCharacterTemplate.Personality
+  - Ntt_5216FE19.DefaultBasicCharacterTemplate.ShortInfo
+  - Ntt_A19A8B1B.DisplayName
+  - Ntt_A19A8B1B.Text
+  - Ntt_A19A8B1B.DefaultBasicCharacterTemplate.Nationality
+  - Ntt_A19A8B1B.DefaultBasicCharacterTemplate.Faction
+  - Ntt_A19A8B1B.DefaultBasicCharacterTemplate.Personality
+  - Ntt_A19A8B1B.DefaultBasicCharacterTemplate.ShortInfo
+  - Ntt_C453783B.DisplayName
+  - Ntt_C453783B.Text
+  - Ntt_C453783B.DefaultBasicCharacterTemplate.Nationality
+  - Ntt_C453783B.DefaultBasicCharacterTemplate.Faction
+  - Ntt_C453783B.DefaultBasicCharacterTemplate.Personality
+  - Ntt_C453783B.DefaultBasicCharacterTemplate.ShortInfo
+  - Ntt_0E859316.DisplayName
+  - Ntt_0E859316.Text
+  - Ntt_0E859316.DefaultBasicCharacterTemplate.Nationality
+  - Ntt_0E859316.DefaultBasicCharacterTemplate.Faction
+  - Ntt_0E859316.DefaultBasicCharacterTemplate.Personality
+  - Ntt_0E859316.DefaultBasicCharacterTemplate.ShortInfo
+  - Ntt_0AF47306.DisplayName
+  - Ntt_0AF47306.Text
+  - Ntt_0AF47306.DefaultBasicCharacterTemplate.Nationality
+  - Ntt_0AF47306.DefaultBasicCharacterTemplate.Faction
+  - Ntt_0AF47306.DefaultBasicCharacterTemplate.Personality
+  - Ntt_0AF47306.DefaultBasicCharacterTemplate.ShortInfo
+  - Ntt_C9A7E775.DisplayName
+  - Ntt_C9A7E775.Text
+  - Ntt_C9A7E775.DefaultBasicCharacterTemplate.Nationality
+  - Ntt_C9A7E775.DefaultBasicCharacterTemplate.Faction
+  - Ntt_C9A7E775.DefaultBasicCharacterTemplate.Personality
+  - Ntt_C9A7E775.DefaultBasicCharacterTemplate.ShortInfo
+  - Ntt_8778F817.DisplayName
+  - Ntt_8778F817.Text
+  - Ntt_2A662411.DisplayName
+  - Ntt_2A662411.Text
+  - Ntt_D5562294.DisplayName
+  - Ntt_D5562294.Text
+  - Ntt_4114A28E.DisplayName
+  - Ntt_4114A28E.Text
+  - Ntt_BE695C21.DisplayName
+  - Ntt_BE695C21.Text
+  - Ntt_C62495C9.DisplayName
+  - Ntt_C62495C9.Text
+  - Ntt_A875F520.DisplayName
+  - Ntt_A875F520.Text
+  - Ast_B94C89C9.DisplayName
+  - Ast_B94C89C9.Text
+  - Ast_581929F0.DisplayName
+  - Ast_581929F0.Text
+  - Ast_1FFE2D10.DisplayName
+  - Ast_1FFE2D10.Text
+  - Ast_7EC0FED5.DisplayName
+  - Ast_7EC0FED5.Text
+  - Ast_206E88E3.DisplayName
+  - Ast_206E88E3.Text
+  - Ast_B59BD0F2.DisplayName
+  - Ast_B59BD0F2.Text
+  - Ast_7C2088D6.DisplayName
+  - Ast_7C2088D6.Text
+  - Ufo_204EA1CB.DisplayName
+  - Ufo_126083D3.DisplayName
+  - Ufo_5B7DF48E.DisplayName
+  - Ufo_ACB5625F.DisplayName
+  - Ufo_0E9CA251.DisplayName
+  - Ufo_9AA06BB6.DisplayName
+  - Ufo_8A15F715.DisplayName
+  - Ufo_D05CCC4A.DisplayName
+  - Ufo_52753220.DisplayName
+  - Ufo_9A8F0A7D.DisplayName
+  mLocaValues:
+  - Nebencharaktere Articy-Temp
+  - Basic Character Articy-Temp
+  - Alter
+  - Spezies
+  - Geboren in
+  - Geschlecht
+  - Male
+  - Female
+  - Unknown
+  - Geschlecht
+  - Beruf
+  - Stimme
+  - "Pers\xF6nlichkeit"
+  - Aussehen
+  - Hauptcharaktere Articy-Temp
+  - Basic Extended Character Articy-Temp
+  - Ziele
+  - Innerer Konflikt
+  - "F\xE4higkeiten"
+  - "Schw\xE4chen"
+  - Macken / Gewohnheiten
+  - Weitere Details
+  - Firm Character
+  - Extended Character Template
+  - Ziele
+  - Innerer Konflikt
+  - "F\xE4higkeiten"
+  - "Schw\xE4chen"
+  - Macken / Gewohnheiten
+  - Weitere Details
+  - Basic Character Template
+  - Age
+  - Nationality
+  - Voice
+  - Male
+  - Female
+  - Unknown
+  - Voice
+  - Faction / Firm
+  - Voice Actor
+  - Personality
+  - Short Info
+  - PC
+  - Firm Character Short
+  - Faction
+  - Faction Template Extended
+  - Allies High Diplomacy
+  - Astraea Technologies
+  - Athos Trust Society
+  - Delling Institute
+  - Expanse Inc.
+  - Marson Industries
+  - Silvert Transnational
+  - Allies High Diplomacy
+  - Reasons Why High Ally
+  - Reasons Why Low Ally
+  - Reasons Why High Competitor
+  - Reasons Why Low Competitor
+  - Allies Low Diplomacy
+  - Astraea Technologies
+  - Athos Trust Society
+  - Delling Institute
+  - Expanse Inc.
+  - Marson Industries
+  - Silvert Transnational
+  - Allies Low Diplomacy
+  - Competitor High Diplomacy
+  - Astraea Technologies
+  - Athos Trust Society
+  - Delling Institute
+  - Expanse Inc.
+  - Marson Industries
+  - Silvert Transnational
+  - Competitor High Diplomacy
+  - Competitor Low Diplomacy
+  - Astraea Technologies
+  - Athos Trust Society
+  - Delling Institute
+  - Expanse Inc.
+  - Marson Industries
+  - Silvert Transnational
+  - Competitor Low Diplomacy
+  - Resources Wanted
+  - Resources Giving
+  - Basic Faction Template
+  - Faction Logo
+  - Faction Name
+  - Faction Contact
+  - Caspar Fisk
+  - Chrisjen Nygaard
+  - Mariya Aishatu
+  - Nathan Burton
+  - Peter Voigt
+  - Tamura Katsuro
+  - Faction Contact
+  - Faction Info
+  - 'Mission 1: Preparations'
+  - Introductory Tutorial Mission.
+  - Mission Win Condition
+  - Temporary Win Condition
+  - 'Phase One: Welcome'
+  - Your introduction to the space station. Learn the input controls.
+  - 'Phase Four: Electricity'
+  - We will need electricity. Build four solar modules.
+  - 'Phase Five: Water'
+  - We will need water. For that, build an ice miner.
+  - 'Phase Six: Oxygen'
+  - 'The last task for our preparations: Build an oxygen module.'
+  - 'Phase Two: Pathways'
+  - Workers will need to get around the station. Build five tubes.
+  - 'Phase Three: Material Gathering'
+  - Build two scrap gatherers, so we can start collecting new material.
+  - 'Phase Seven: Population'
+  - Build population modules and housing units. Reach the target of 500 employees
+    working in space.
+  - Next,Skip
+  - 
+  - Good to see you on time. Remember, we are not the only company interested in
+    this opportunity. We must act quickly.
+  - Next
+  - 
+  - "You're in charge of our advanced drone. It\u2019ll help us prepare for the arrival
+    of our new workforce. Test all functions to check their conditions.\n\n<i>\\[Use
+    'W, A, S, D' to move around and 'Q, E' to rotate. To zoom in and out, use the
+    mouse wheel.\\]</i>"
+  - Claim
+  - 
+  - Good. Everything seems to work.
+  - Complete
+  - 
+  - 'Check the drone''s automatic homing to navigate back to the main module. Our
+    company cannot afford defective products.
+
+
+    <i>\[Use ''C'' or the ''Reset''
+    button to return to standard view.\]</i>'
+  - Accept
+  - 
+  - 'We anticipate that the station will be a diamond in the rough for a while. Therefore,
+    be as efficient as possible!
+
+
+    <i>\[To shift focus, hover over module and
+    press ''SPACE BAR''. Standard view via ''Reset'' button is always the main module.\]</i>'
+  - Next
+  - 
+  - 'If a module is misplaced, reposition it immediately!
+
+
+    <i>\[Click on ''Move''
+    button and choose module to reposition. Left click on mouse to confirm.\]</i>'
+  - Close
+  - 
+  - "You can destroy a misplaced module too. But you will lose resources. \n\n<i>\\[Click
+    on the 'Destroy' button, choose one or more modules and click on button again
+    to delete.\\]</i>"
+  - Claim
+  - 
+  - Great! The company will be pleased with our progress.
+  - Accept
+  - 
+  - With the electricity provided by the solar modules, we're able to assemble an
+    ice miner now. It's our very own and the very best in the business, of course.
+  - Claim
+  - 
+  - Well on time, and we're almost done with preparations.
+  - Close
+  - 
+  - As you continue to build the next modules, keep an eye on their energy balance.
+    Efficiency is key!
+  - Accept
+  - 
+  - As the last step for our preparations, the oxygen supply has to be clarified.
+  - Close
+  - 
+  - Well done! Now our space station can support human life. Many new modules will
+    be available for you over time. However, I'd recommend to start with the housing
+    for our workers.
+  - Claim
+  - 
+  - 'Mrs. Chrisjen Nygaard will soon get in touch with you. She is the current director
+    of the Delling Institute and responsible for all the finances.
+
+
+    <i>\</i><i>[Get
+    in contact with factions to receive quests. Try to gain their approval for better
+    rewards.</i><i>\</i><i>]</i>'
+  - Accept
+  - 
+  - "It's time to create a pathway. You'll be able to use the drone's updated grid
+    feature as a guide. The company spared no expenses for our success. \n\n<i>\\[To
+    move the grid around, click on a tube to center on, or use \u2018W, S\u2019 buttons
+    to move it bit by bit.\\]</i>"
+  - Close
+  - 
+  - "Though there is no need to pour money down the drain. Our resources are still
+    finite, keep an eye on them and keep track of our time schedule.\n\n<i>\\[For
+    multiplacing: hold \u2018SHIFT\u2019, place a tube and pull it along the desired
+    way.\\]</i>"
+  - Claim
+  - 
+  - You seem to get the hang of it. Well done.
+  - Accept
+  - 
+  - We require material for the expansion of our station. With scrap gatherers, we'll
+    refill our resources soon enough.
+  - Claim
+  - 
+  - Now that's done, let us move on to the next task point.
+  - Close
+  - 
+  - 'Their drones will gather material and clean up space debris as well. If only
+    our workers could be that efficient.
+
+
+    <i>\[Use ''R, F, G'' to rotate the
+    module and bring it into a desired position.\]</i>'
+  - Accept
+  - 
+  - "G'day, my name is Chrisjen Nygaard. I\u2019m the financial supervisor of the
+    Delling Institute. As we speak, your employees are getting prepared for their
+    trip to space."
+  - Claim
+  - 
+  - "Good on ya! You\u2019ve reached the goal. We\u2019re all truly thankful for
+    your efforts."
+  - Close
+  - 
+  - We took the effort and calculated that around 500 workers will be needed to yield
+    the most profitable results. Provided all their needs are met, of course.
+  - Nathan Burton
+  - 
+  - American
+  - Expanse Inc.
+  - friendly, welcoming / very approachable, open, communicative, energetic, helpful
+  - Non-Player Character and the players' contact / mentor  for their own firm.
+  - Chrisjen Nygaard
+  - 
+  - Australian
+  - Delling Institute
+  - 
+  - Non-Player Character and the players' contact for the Delling Institute.
+  - Tamura Katsuro
+  - 
+  - Japan
+  - Athos Trust Society
+  - 
+  - Non-Player Character and the players' contact for the Athos Trust Society.
+  - Mariya Aishatu
+  - 
+  - Nigerian
+  - Astraea Technologies
+  - 
+  - Non-Player Character and the players' contact for Astraea Technologies.
+  - Peter Voigt
+  - 
+  - German
+  - Marson Industries
+  - 
+  - Non-Player Character and the players' contact for Marson Industries.
+  - Caspar Fisk
+  - 
+  - Finnish
+  - Silvert Transnational
+  - 
+  - Non-Player Character and the players' contact for Silvert Transnational.
+  - Player Character
+  - 
+  - Expanse Inc.
+  - 
+  - Delling Institute
+  - 
+  - Athos Trust Society
+  - 
+  - Astraea Technologies
+  - 
+  - Marson Industries
+  - 
+  - Silvert Transnational
+  - 
+  - thispersondoesnotexist0025-NEWW
+  - 
+  - Caspar_Fink
+  - 
+  - Chrisjen_Nygaard
+  - 
+  - Mariya_Aishatu
+  - 
+  - Nathan_Burton
+  - 
+  - Peter_Voigt
+  - 
+  - Tamura_Katsuro
+  - 
+  - Bilder
+  - Placeholder
+  - Character Portrait
+  - Videos
+  - Audio
+  - Dokumente
+  - Verschiedenes
+  - Tutorial
+  - Characters
+  - Factions

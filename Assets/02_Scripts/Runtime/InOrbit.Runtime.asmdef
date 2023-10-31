@@ -8,7 +8,9 @@
         "Unity.Localization",
         "Unity.ResourceManager",
         "Unity.RenderPipelines.HighDefinition.Runtime",
-        "Unity.RenderPipelines.Core.Runtime"
+        "Unity.RenderPipelines.Core.Runtime",
+        "ArticyGenerated",
+        "ArticyGenerated.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

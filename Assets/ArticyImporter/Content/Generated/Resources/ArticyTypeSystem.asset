@@ -1,0 +1,5254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8924691141733923407
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.ReasonHighAlly
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.ReasonHighAlly
+  mDisplayName: $Property.FactionTemplateExtended.ReasonHighAlly.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-8889566788345168450
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  mTechnicalName: Condition
+  mDisplayName: Condition
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Condition, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 4371239448508003502}
+  - {fileID: -7289412639524625137}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-8782218727259335687
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LineWidth
+  m_EditorClassIdentifier: 
+  mTechnicalName: LineWidth
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-8582240311123518751
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CreatedOn
+  m_EditorClassIdentifier: 
+  mTechnicalName: CreatedOn
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-8533505348127460115
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: RivalLowDiplomacy
+  mDisplayName: $Enum.RivalLowDiplomacy.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.RivalLowDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 472525369691293273}
+  - {fileID: 5564787850730372937}
+  - {fileID: -2780467353748757848}
+  - {fileID: 1124271129634371703}
+  - {fileID: 2822708267799316409}
+  - {fileID: 4931521445619266819}
+--- !u!114 &-8457867258126573969
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFactionTemplate.FactionLogo
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFactionTemplate.FactionLogo
+  mDisplayName: $Property.DefaultFactionTemplate.FactionLogo.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - None;
+  - 
+  - Entity;LocationImage;
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-8438948088793690289
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: SelectabilityModes.Unselectable
+  m_EditorClassIdentifier: 
+  mTechnicalName: Unselectable
+  mDisplayName: Unselectable
+  mValue: 0
+--- !u!114 &-8394689342489166177
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy.Delling_Institute
+  m_EditorClassIdentifier: 
+  mTechnicalName: Delling_Institute
+  mDisplayName: $Enum.AllyLowDiplomacy.Delling_Institute.DisplayName
+  mValue: 2
+--- !u!114 &-8366128852430549370
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Path
+  m_EditorClassIdentifier: 
+  mTechnicalName: Path
+  mDisplayName: Path
+  mValue: 4
+--- !u!114 &-8339865379010999244
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFactionTemplate.FactionCharacteristic
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFactionTemplate.FactionCharacteristic
+  mDisplayName: $Property.DefaultFactionTemplate.FactionCharacteristic.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-8221759767641165199
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ExternalId
+  m_EditorClassIdentifier: 
+  mTechnicalName: ExternalId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-8207847191751008206
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize
+  m_EditorClassIdentifier: 
+  mTechnicalName: LocationAnchorSize
+  mDisplayName: LocationAnchorSize
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.LocationAnchorSize, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: -7667100612219885711}
+  - {fileID: 4657458942480408456}
+  - {fileID: 531238878021435693}
+--- !u!114 &-8166184776937715719
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.ResourceWant
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.ResourceWant
+  mDisplayName: $Property.FactionTemplateExtended.ResourceWant.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-7787445087540637087
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: UserFolder
+  m_EditorClassIdentifier: 
+  mTechnicalName: UserFolder
+  mDisplayName: UserFolder
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.UserFolder, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: -8221759767641165199}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -5692865301164988197}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-7731581026578923829
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutlineStyle
+  mDisplayName: OutlineStyle
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.OutlineStyle, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 3661747911856024594}
+  - {fileID: 2944840868963601244}
+  - {fileID: -3766818739391465032}
+  - {fileID: -2736686729767094981}
+  - {fileID: 8800041374785299228}
+--- !u!114 &-7667100612219885711
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize.Small
+  m_EditorClassIdentifier: 
+  mTechnicalName: Small
+  mDisplayName: Small
+  mValue: 0
+--- !u!114 &-7464248858819893649
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterTemplate.InnerConflict
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterTemplate.InnerConflict
+  mDisplayName: $Property.DefaultExtendedCharacterTemplate.InnerConflict.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-7423481732749539397
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFactionTemplate.FactionCharacterContact
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFactionTemplate.FactionCharacterContact
+  mDisplayName: $Property.DefaultFactionTemplate.FactionCharacterContact.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.FactionCharacterContact, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-7289412639524625137
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Color
+  m_EditorClassIdentifier: 
+  mTechnicalName: Color
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-7182476015076519714
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy.Astraea_Technologies
+  m_EditorClassIdentifier: 
+  mTechnicalName: Astraea_Technologies
+  mDisplayName: $Enum.AllyHighDiplomacy.Astraea_Technologies.DisplayName
+  mValue: 0
+--- !u!114 &-6676217464954429561
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.VoiceActor
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.VoiceActor
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.VoiceActor.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-6435004209952988550
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterTemplate.FurtherDetails
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterTemplate.FurtherDetails
+  mDisplayName: $Property.DefaultExtendedCharacterTemplate.FurtherDetails.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-6251556556627797927
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: InputPins
+  m_EditorClassIdentifier: 
+  mTechnicalName: InputPins
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.List`1, ArticyGenerated
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-6085494530676561036
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Target
+  m_EditorClassIdentifier: 
+  mTechnicalName: Target
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-5938448750370351590
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy.Marson_Industries
+  m_EditorClassIdentifier: 
+  mTechnicalName: Marson_Industries
+  mDisplayName: $Enum.AllyHighDiplomacy.Marson_Industries.DisplayName
+  mValue: 4
+--- !u!114 &-5692865301164988197
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ZIndex
+  m_EditorClassIdentifier: 
+  mTechnicalName: ZIndex
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-5626942559873539871
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: EndCap
+  m_EditorClassIdentifier: 
+  mTechnicalName: EndCap
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.PathCaps, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-5458686119929253444
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: StartCap
+  m_EditorClassIdentifier: 
+  mTechnicalName: StartCap
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.PathCaps, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-5390705179519851078
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.Square
+  m_EditorClassIdentifier: 
+  mTechnicalName: Square
+  mDisplayName: Square
+  mValue: 5
+--- !u!114 &-5266127518167824303
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.Disc
+  m_EditorClassIdentifier: 
+  mTechnicalName: Disc
+  mDisplayName: Disc
+  mValue: 6
+--- !u!114 &-5176785083002492156
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterTemplate.Habits
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterTemplate.Habits
+  mDisplayName: $Property.DefaultExtendedCharacterTemplate.Habits.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-5147402033386907629
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterExtended.Habits
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterExtended.Habits
+  mDisplayName: $Property.ArticyDefaultCharacterExtended.Habits.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-5070320924053680292
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.None
+  m_EditorClassIdentifier: 
+  mTechnicalName: None
+  mDisplayName: None
+  mValue: 1
+--- !u!114 &-5034387834187005087
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy.Expanse_Inc
+  m_EditorClassIdentifier: 
+  mTechnicalName: Expanse_Inc
+  mDisplayName: $Enum.RivalHighDiplomacy.Expanse_Inc.DisplayName
+  mValue: 3
+--- !u!114 &-4726568227263302649
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CachedImageHeight
+  m_EditorClassIdentifier: 
+  mTechnicalName: CachedImageHeight
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-4630145588357620277
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FlowFragment
+  m_EditorClassIdentifier: 
+  mTechnicalName: FlowFragment
+  mDisplayName: FlowFragment
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.FlowFragment, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-4415381046370133643
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact.Tamura_Katsuro
+  m_EditorClassIdentifier: 
+  mTechnicalName: Tamura_Katsuro
+  mDisplayName: $Enum.FactionCharacterContact.Tamura_Katsuro.DisplayName
+  mValue: 5
+--- !u!114 &-4010303587527575026
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImageViewBoxModes.FromAsset
+  m_EditorClassIdentifier: 
+  mTechnicalName: FromAsset
+  mDisplayName: FromAsset
+  mValue: 0
+--- !u!114 &-4006382308267244478
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Species
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Species
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Species.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-3866382670596080970
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.RivalHighDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.RivalHighDiplomacy
+  mDisplayName: $Property.FactionTemplateExtended.RivalHighDiplomacy.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.RivalHighDiplomacy, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-3766818739391465032
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.Dash
+  m_EditorClassIdentifier: 
+  mTechnicalName: Dash
+  mDisplayName: Dash
+  mValue: 2
+--- !u!114 &-3672786716856514124
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Sex.Female
+  m_EditorClassIdentifier: 
+  mTechnicalName: Female
+  mDisplayName: $Enum.Sex.Female.DisplayName
+  mValue: 1
+--- !u!114 &-3614326052695144711
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: AllyLowDiplomacy
+  mDisplayName: $Enum.AllyLowDiplomacy.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.AllyLowDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 5846989920692154909}
+  - {fileID: 4480857495980595553}
+  - {fileID: -8394689342489166177}
+  - {fileID: 1626987846281409280}
+  - {fileID: -3481711323799504930}
+  - {fileID: 1746173475963322596}
+--- !u!114 &-3542841106401410090
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Sex
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Sex
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Sex.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.Sex, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-3481711323799504930
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy.Marson_Industries
+  m_EditorClassIdentifier: 
+  mTechnicalName: Marson_Industries
+  mDisplayName: $Enum.AllyLowDiplomacy.Marson_Industries.DisplayName
+  mValue: 4
+--- !u!114 &-3422515216135333358
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Accent.Female
+  m_EditorClassIdentifier: 
+  mTechnicalName: Female
+  mDisplayName: $Enum.Accent.Female.DisplayName
+  mValue: 1
+--- !u!114 &-3383972499594304654
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Circle
+  m_EditorClassIdentifier: 
+  mTechnicalName: Circle
+  mDisplayName: Circle
+  mValue: 2
+--- !u!114 &-3365082098893475987
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Document
+  m_EditorClassIdentifier: 
+  mTechnicalName: Document
+  mDisplayName: Document
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Document, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-3302414713859188848
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.ReasonHighCompetition
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.ReasonHighCompetition
+  mDisplayName: $Property.FactionTemplateExtended.ReasonHighCompetition.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-3266424933976227667
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ImageOpacity
+  m_EditorClassIdentifier: 
+  mTechnicalName: ImageOpacity
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-3236413165331275105
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: SelectabilityModes.Selectable
+  m_EditorClassIdentifier: 
+  mTechnicalName: Selectable
+  mDisplayName: Selectable
+  mValue: 1
+--- !u!114 &-3206661874962339647
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Attachments
+  m_EditorClassIdentifier: 
+  mTechnicalName: Attachments
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.List`1, ArticyGenerated
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-3084331903247768489
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  mTechnicalName: Dialogue
+  mDisplayName: Dialogue
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Dialogue, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-3052612408524295706
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Appearance
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Appearance
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Appearance.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-3023469393286178220
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: RivalHighDiplomacy
+  mDisplayName: $Enum.RivalHighDiplomacy.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.RivalHighDiplomacy, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 504818172696816881}
+  - {fileID: 5590783401312655095}
+  - {fileID: -1631074125021365081}
+  - {fileID: -5034387834187005087}
+  - {fileID: 1680367481310854327}
+  - {fileID: 2055035158485203116}
+--- !u!114 &-2798837811086606289
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DisplayNameColor
+  m_EditorClassIdentifier: 
+  mTechnicalName: DisplayNameColor
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2795180792347138833
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.Accent
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.Accent
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.Accent.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.Accent, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-2780467353748757848
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy.Delling_Institute
+  m_EditorClassIdentifier: 
+  mTechnicalName: Delling_Institute
+  mDisplayName: $Enum.RivalLowDiplomacy.Delling_Institute.DisplayName
+  mValue: 2
+--- !u!114 &-2736686729767094981
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.DashDot
+  m_EditorClassIdentifier: 
+  mTechnicalName: DashDot
+  mDisplayName: DashDot
+  mValue: 3
+--- !u!114 &-2486521465908520923
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.Age
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.Age
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.Age.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 3,40282346638529E+38
+  - 0
+  - -3,40282346638529E+38
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-2437599862211574552
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Polygon
+  m_EditorClassIdentifier: 
+  mTechnicalName: Polygon
+  mDisplayName: Polygon
+  mValue: 5
+--- !u!114 &-2236670916411609355
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: MenuText
+  m_EditorClassIdentifier: 
+  mTechnicalName: MenuText
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2230381885111202877
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.AllyHighDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.AllyHighDiplomacy
+  mDisplayName: $Property.FactionTemplateExtended.AllyHighDiplomacy.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.AllyHighDiplomacy, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-2125669037027930423
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Selectability
+  m_EditorClassIdentifier: 
+  mTechnicalName: Selectability
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.SelectabilityModes, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2117420457193421250
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: VisibilityModes.Visible
+  m_EditorClassIdentifier: 
+  mTechnicalName: Visible
+  mDisplayName: Visible
+  mValue: 1
+--- !u!114 &-2036666506089665661
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: StageDirections
+  m_EditorClassIdentifier: 
+  mTechnicalName: StageDirections
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-2014800615620327438
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFactionTemplate
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFactionTemplate
+  mDisplayName: $Template.DefaultFactionTemplate.DisplayName
+  mBaseType: {fileID: 3040116907430246455}
+  mCSharpType: Articy.Sola.DefaultFactionTemplate, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - FactionTemplateExtended
+  - DefaultFactionTemplate
+  mProperties:
+  - {fileID: -2230381885111202877}
+  - {fileID: -8924691141733923407}
+  - {fileID: 7073399516341219322}
+  - {fileID: -3302414713859188848}
+  - {fileID: -95913910324867054}
+  - {fileID: -1057930912053655209}
+  - {fileID: -3866382670596080970}
+  - {fileID: -931593524214023059}
+  - {fileID: -8166184776937715719}
+  - {fileID: -1182793108867203173}
+  - {fileID: -8457867258126573969}
+  - {fileID: 132787689728454481}
+  - {fileID: -7423481732749539397}
+  - {fileID: -8339865379010999244}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-1947463869513257707
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ForcedHeight
+  m_EditorClassIdentifier: 
+  mTechnicalName: ForcedHeight
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-1741213566889270218
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps
+  m_EditorClassIdentifier: 
+  mTechnicalName: PathCaps
+  mDisplayName: PathCaps
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.PathCaps, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 296969342371958013}
+  - {fileID: -5070320924053680292}
+  - {fileID: 846448689439977954}
+  - {fileID: 5071965298359643717}
+  - {fileID: 7644363056688472799}
+  - {fileID: -5390705179519851078}
+  - {fileID: -5266127518167824303}
+--- !u!114 &-1735755973608396519
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImageViewBoxModes.Custom
+  m_EditorClassIdentifier: 
+  mTechnicalName: Custom
+  mDisplayName: Custom
+  mValue: 1
+--- !u!114 &-1631074125021365081
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy.Delling_Institute
+  m_EditorClassIdentifier: 
+  mTechnicalName: Delling_Institute
+  mDisplayName: $Enum.RivalHighDiplomacy.Delling_Institute.DisplayName
+  mValue: 2
+--- !u!114 &-1570883778517528612
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Path
+  m_EditorClassIdentifier: 
+  mTechnicalName: Path
+  mDisplayName: Path
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Path, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: 7172889358073411925}
+  - {fileID: 8694650361059186376}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 2273801062868242833}
+  - {fileID: -2125669037027930423}
+  - {fileID: 4445243113533923338}
+  - {fileID: -2798837811086606289}
+  - {fileID: 6207815425516635720}
+  - {fileID: 1305201594782546122}
+  - {fileID: 5321560762162383732}
+  - {fileID: 317909459983305272}
+  - {fileID: 3018792431239019684}
+  - {fileID: -5458686119929253444}
+  - {fileID: -5626942559873539871}
+  - {fileID: -8782218727259335687}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-1182793108867203173
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.ResourceGive
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.ResourceGive
+  mDisplayName: $Property.FactionTemplateExtended.ResourceGive.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-1113224342785766355
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact.Peter_Voigt
+  m_EditorClassIdentifier: 
+  mTechnicalName: Peter_Voigt
+  mDisplayName: $Enum.FactionCharacterContact.Peter_Voigt.DisplayName
+  mValue: 4
+--- !u!114 &-1098090745828363753
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.ShortInfo
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.ShortInfo
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.ShortInfo.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-1087561858572208399
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Zone
+  m_EditorClassIdentifier: 
+  mTechnicalName: Zone
+  mDisplayName: Zone
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Zone, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: 7172889358073411925}
+  - {fileID: 8694650361059186376}
+  - {fileID: 9190544247491609547}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 2273801062868242833}
+  - {fileID: 5321560762162383732}
+  - {fileID: 317909459983305272}
+  - {fileID: 3018792431239019684}
+  - {fileID: 4445243113533923338}
+  - {fileID: -2798837811086606289}
+  - {fileID: 6207815425516635720}
+  - {fileID: 1305201594782546122}
+  - {fileID: -2125669037027930423}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-1057930912053655209
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.AllyLowDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.AllyLowDiplomacy
+  mDisplayName: $Property.FactionTemplateExtended.AllyLowDiplomacy.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.AllyLowDiplomacy, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-931593524214023059
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.RivalLowDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.RivalLowDiplomacy
+  mDisplayName: $Property.FactionTemplateExtended.RivalLowDiplomacy.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: Articy.Sola.RivalLowDiplomacy, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - BySortIndex
+  - 
+--- !u!114 &-643808077378723388
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterExtended.Fears
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterExtended.Fears
+  mDisplayName: $Property.ArticyDefaultCharacterExtended.Fears.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &-481091123746797926
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyObject
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyObject
+  mDisplayName: 
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 5945767214343207053}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-447216087901131608
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultSupportingCharacterTemplate_02
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultSupportingCharacterTemplate_02
+  mDisplayName: $Template.DefaultSupportingCharacterTemplate_02.DisplayName
+  mBaseType: {fileID: 3040116907430246455}
+  mCSharpType: Articy.Sola.DefaultSupportingCharacterTemplate_02, ArticyGenerated,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - DefaultBasicCharacterTemplate
+  mProperties:
+  - {fileID: -2486521465908520923}
+  - {fileID: 6500456072159763261}
+  - {fileID: -2795180792347138833}
+  - {fileID: 510983550619375769}
+  - {fileID: -6676217464954429561}
+  - {fileID: 2119867352511105341}
+  - {fileID: -1098090745828363753}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &-414168705567784997
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Anchors
+  m_EditorClassIdentifier: 
+  mTechnicalName: Anchors
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.List`1, ArticyGenerated
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-188569019098971281
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShortId
+  m_EditorClassIdentifier: 
+  mTechnicalName: ShortId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &-95913910324867054
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.ReasonLowCompetition
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.ReasonLowCompetition
+  mDisplayName: $Property.FactionTemplateExtended.ReasonLowCompetition.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1064702003, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyTypeSystem
+  m_EditorClassIdentifier: 
+  mArticyTypes:
+  - {fileID: -481091123746797926}
+  - {fileID: 6556953358243536211}
+  - {fileID: -8533505348127460115}
+  - {fileID: -3023469393286178220}
+  - {fileID: -3614326052695144711}
+  - {fileID: 6984876281413139277}
+  - {fileID: 4247414902342421148}
+  - {fileID: 4673540773517697909}
+  - {fileID: 6776790021991663470}
+  - {fileID: 8198086131562424662}
+  - {fileID: 2379147975707748800}
+  - {fileID: -7731581026578923829}
+  - {fileID: -1741213566889270218}
+  - {fileID: -8207847191751008206}
+  - {fileID: 6403537185682520320}
+  - {fileID: -4630145588357620277}
+  - {fileID: -3084331903247768489}
+  - {fileID: 6762859178902244418}
+  - {fileID: 6347618639792150854}
+  - {fileID: 7081281299609841643}
+  - {fileID: 8476483476343890760}
+  - {fileID: 3040116907430246455}
+  - {fileID: 6624030319458306042}
+  - {fileID: 1618048307597371769}
+  - {fileID: 5934423573981673429}
+  - {fileID: -447216087901131608}
+  - {fileID: 8366601124232443701}
+  - {fileID: -2014800615620327438}
+  - {fileID: 6393187026609044508}
+  - {fileID: 6975378243082964614}
+  - {fileID: -1087561858572208399}
+  - {fileID: -1570883778517528612}
+  - {fileID: 1178189752826861390}
+  - {fileID: 2366433922374539299}
+  - {fileID: -8889566788345168450}
+  - {fileID: 2938528283417097617}
+  - {fileID: 8204809805816935060}
+  - {fileID: 6599954639172386610}
+  - {fileID: -3365082098893475987}
+  - {fileID: 4552088337977131033}
+  - {fileID: -7787445087540637087}
+  mArticyPropertyInfos:
+  - {fileID: 5945767214343207053}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 866485455788079229}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: -2236670916411609355}
+  - {fileID: -2036666506089665661}
+  - {fileID: 3274684388571858010}
+  - {fileID: 3971315856733835837}
+  - {fileID: -8582240311123518751}
+  - {fileID: -6085494530676561036}
+  - {fileID: 6044201276176929657}
+  - {fileID: 2180034791985037107}
+  - {fileID: -4006382308267244478}
+  - {fileID: 7444663401133242741}
+  - {fileID: -3542841106401410090}
+  - {fileID: 7192862288599723933}
+  - {fileID: 4553526592666188277}
+  - {fileID: 2125962199712429158}
+  - {fileID: -3052612408524295706}
+  - {fileID: 3327147484856562803}
+  - {fileID: 7733170955764514426}
+  - {fileID: 8192506606845153716}
+  - {fileID: -643808077378723388}
+  - {fileID: -5147402033386907629}
+  - {fileID: 4370383702630370430}
+  - {fileID: 6497303260198862538}
+  - {fileID: -7464248858819893649}
+  - {fileID: 8426787050410153174}
+  - {fileID: 5765960293007258193}
+  - {fileID: -5176785083002492156}
+  - {fileID: -6435004209952988550}
+  - {fileID: -2486521465908520923}
+  - {fileID: 6500456072159763261}
+  - {fileID: -2795180792347138833}
+  - {fileID: 510983550619375769}
+  - {fileID: -6676217464954429561}
+  - {fileID: 2119867352511105341}
+  - {fileID: -1098090745828363753}
+  - {fileID: -2230381885111202877}
+  - {fileID: -8924691141733923407}
+  - {fileID: 7073399516341219322}
+  - {fileID: -3302414713859188848}
+  - {fileID: -95913910324867054}
+  - {fileID: -1057930912053655209}
+  - {fileID: -3866382670596080970}
+  - {fileID: -931593524214023059}
+  - {fileID: -8166184776937715719}
+  - {fileID: -1182793108867203173}
+  - {fileID: -8457867258126573969}
+  - {fileID: 132787689728454481}
+  - {fileID: -7423481732749539397}
+  - {fileID: -8339865379010999244}
+  - {fileID: 2273801062868242833}
+  - {fileID: 4445243113533923338}
+  - {fileID: -2798837811086606289}
+  - {fileID: 6207815425516635720}
+  - {fileID: 5321560762162383732}
+  - {fileID: 317909459983305272}
+  - {fileID: 3018792431239019684}
+  - {fileID: 1305201594782546122}
+  - {fileID: -2125669037027930423}
+  - {fileID: 7172889358073411925}
+  - {fileID: 8694650361059186376}
+  - {fileID: 9190544247491609547}
+  - {fileID: -5458686119929253444}
+  - {fileID: -5626942559873539871}
+  - {fileID: -8782218727259335687}
+  - {fileID: 4336240002969293338}
+  - {fileID: 8650054470145014399}
+  - {fileID: 4371239448508003502}
+  - {fileID: -414168705567784997}
+  - {fileID: 1447417177579784394}
+  - {fileID: -1947463869513257707}
+  - {fileID: 3298411705228547863}
+  - {fileID: -3266424933976227667}
+  - {fileID: 2580543492687665468}
+  - {fileID: 8603392221833528107}
+  - {fileID: -4726568227263302649}
+  mArticyTypeNames:
+  - ArticyObject
+  - FactionCharacterContact
+  - RivalLowDiplomacy
+  - RivalHighDiplomacy
+  - AllyLowDiplomacy
+  - AllyHighDiplomacy
+  - Accent
+  - Sex
+  - ShapeType
+  - SelectabilityModes
+  - VisibilityModes
+  - OutlineStyle
+  - PathCaps
+  - LocationAnchorSize
+  - PreviewImageViewBoxModes
+  - FlowFragment
+  - Dialogue
+  - DialogueFragment
+  - Hub
+  - Comment
+  - Jump
+  - Entity
+  - DefaultSupportingCharacterTemplate
+  - DefaultMainCharacterTemplate
+  - DefaultFirmCharacterTemplate
+  - DefaultSupportingCharacterTemplate_02
+  - DefaultFirmCharacterShort
+  - DefaultFactionTemplate
+  - Location
+  - Spot
+  - Zone
+  - Path
+  - Link
+  - Asset
+  - Condition
+  - Instruction
+  - LocationText
+  - LocationImage
+  - Document
+  - TextObject
+  - UserFolder
+  mArticyTypeTypes:
+  - Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.FactionCharacterContact, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.RivalLowDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.RivalHighDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.AllyLowDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.AllyHighDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.Accent, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Sex, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.ShapeType, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.SelectabilityModes, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.VisibilityModes, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.OutlineStyle, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.PathCaps, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.LocationAnchorSize, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Unity.PreviewImageViewBoxModes, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.FlowFragment, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.Dialogue, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.DialogueFragment, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.Hub, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Comment, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Jump, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Entity, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.DefaultSupportingCharacterTemplate, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.DefaultMainCharacterTemplate, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.DefaultFirmCharacterTemplate, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.DefaultSupportingCharacterTemplate_02, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.DefaultFirmCharacterShort, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.DefaultFactionTemplate, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.Location, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Spot, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Zone, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Path, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Link, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Asset, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Condition, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.Instruction, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.LocationText, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.LocationImage, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  - Articy.Sola.Document, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.TextObject, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Articy.Sola.UserFolder, ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  mFeatureProps:
+  - ArticyDefaultCharacterBasic.Age
+  - ArticyDefaultCharacterBasic.Species
+  - ArticyDefaultCharacterBasic.BornIn
+  - ArticyDefaultCharacterBasic.Sex
+  - ArticyDefaultCharacterBasic.Occupation
+  - ArticyDefaultCharacterBasic.Accent
+  - ArticyDefaultCharacterBasic.Personality
+  - ArticyDefaultCharacterBasic.Appearance
+  - ArticyDefaultCharacterExtended.Motivation
+  - ArticyDefaultCharacterExtended.InnerConflict
+  - ArticyDefaultCharacterExtended.Skills
+  - ArticyDefaultCharacterExtended.Fears
+  - ArticyDefaultCharacterExtended.Habits
+  - ArticyDefaultCharacterExtended.FurtherDetails
+  - DefaultExtendedCharacterTemplate.Motivation
+  - DefaultExtendedCharacterTemplate.InnerConflict
+  - DefaultExtendedCharacterTemplate.Skills
+  - DefaultExtendedCharacterTemplate.Fears
+  - DefaultExtendedCharacterTemplate.Habits
+  - DefaultExtendedCharacterTemplate.FurtherDetails
+  - DefaultBasicCharacterTemplate.Age
+  - DefaultBasicCharacterTemplate.Nationality
+  - DefaultBasicCharacterTemplate.Accent
+  - DefaultBasicCharacterTemplate.Faction
+  - DefaultBasicCharacterTemplate.VoiceActor
+  - DefaultBasicCharacterTemplate.Personality
+  - DefaultBasicCharacterTemplate.ShortInfo
+  - FactionTemplateExtended.AllyHighDiplomacy
+  - FactionTemplateExtended.ReasonHighAlly
+  - FactionTemplateExtended.ReasonLowAlly
+  - FactionTemplateExtended.ReasonHighCompetition
+  - FactionTemplateExtended.ReasonLowCompetition
+  - FactionTemplateExtended.AllyLowDiplomacy
+  - FactionTemplateExtended.RivalHighDiplomacy
+  - FactionTemplateExtended.RivalLowDiplomacy
+  - FactionTemplateExtended.ResourceWant
+  - FactionTemplateExtended.ResourceGive
+  - DefaultFactionTemplate.FactionLogo
+  - DefaultFactionTemplate.FactionName
+  - DefaultFactionTemplate.FactionCharacterContact
+  - DefaultFactionTemplate.FactionCharacteristic
+  mFeaturePropInfos:
+  - {fileID: 2180034791985037107}
+  - {fileID: -4006382308267244478}
+  - {fileID: 7444663401133242741}
+  - {fileID: -3542841106401410090}
+  - {fileID: 7192862288599723933}
+  - {fileID: 4553526592666188277}
+  - {fileID: 2125962199712429158}
+  - {fileID: -3052612408524295706}
+  - {fileID: 3327147484856562803}
+  - {fileID: 7733170955764514426}
+  - {fileID: 8192506606845153716}
+  - {fileID: -643808077378723388}
+  - {fileID: -5147402033386907629}
+  - {fileID: 4370383702630370430}
+  - {fileID: 6497303260198862538}
+  - {fileID: -7464248858819893649}
+  - {fileID: 8426787050410153174}
+  - {fileID: 5765960293007258193}
+  - {fileID: -5176785083002492156}
+  - {fileID: -6435004209952988550}
+  - {fileID: -2486521465908520923}
+  - {fileID: 6500456072159763261}
+  - {fileID: -2795180792347138833}
+  - {fileID: 510983550619375769}
+  - {fileID: -6676217464954429561}
+  - {fileID: 2119867352511105341}
+  - {fileID: -1098090745828363753}
+  - {fileID: -2230381885111202877}
+  - {fileID: -8924691141733923407}
+  - {fileID: 7073399516341219322}
+  - {fileID: -3302414713859188848}
+  - {fileID: -95913910324867054}
+  - {fileID: -1057930912053655209}
+  - {fileID: -3866382670596080970}
+  - {fileID: -931593524214023059}
+  - {fileID: -8166184776937715719}
+  - {fileID: -1182793108867203173}
+  - {fileID: -8457867258126573969}
+  - {fileID: 132787689728454481}
+  - {fileID: -7423481732749539397}
+  - {fileID: -8339865379010999244}
+  mFeatureTechnicalNames:
+  - ArticyDefaultCharacterBasic
+  - ArticyDefaultCharacterExtended
+  - DefaultExtendedCharacterTemplate
+  - DefaultBasicCharacterTemplate
+  - FactionTemplateExtended
+  - DefaultFactionTemplate
+  mFeatureDisplayNames:
+  - $Feature.ArticyDefaultCharacterBasic.DisplayName
+  - $Feature.ArticyDefaultCharacterExtended.DisplayName
+  - $Feature.DefaultExtendedCharacterTemplate.DisplayName
+  - $Feature.DefaultBasicCharacterTemplate.DisplayName
+  - $Feature.FactionTemplateExtended.DisplayName
+  - $Feature.DefaultFactionTemplate.DisplayName
+--- !u!114 &132787689728454481
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFactionTemplate.FactionName
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFactionTemplate.FactionName
+  mDisplayName: $Property.DefaultFactionTemplate.FactionName.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &221983825262469317
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Parent
+  m_EditorClassIdentifier: 
+  mTechnicalName: Parent
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &296969342371958013
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.ColoredDot
+  m_EditorClassIdentifier: 
+  mTechnicalName: ColoredDot
+  mDisplayName: ColoredDot
+  mValue: 0
+--- !u!114 &317909459983305272
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineSize
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutlineSize
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &472525369691293273
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy.Astraea_Technologies
+  m_EditorClassIdentifier: 
+  mTechnicalName: Astraea_Technologies
+  mDisplayName: $Enum.RivalLowDiplomacy.Astraea_Technologies.DisplayName
+  mValue: 0
+--- !u!114 &504818172696816881
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy.Astraea_Technologies
+  m_EditorClassIdentifier: 
+  mTechnicalName: Astraea_Technologies
+  mDisplayName: $Enum.RivalHighDiplomacy.Astraea_Technologies.DisplayName
+  mValue: 0
+--- !u!114 &510983550619375769
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.Faction
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.Faction
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.Faction.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &531238878021435693
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize.Large
+  m_EditorClassIdentifier: 
+  mTechnicalName: Large
+  mDisplayName: Large
+  mValue: 2
+--- !u!114 &559698496012726209
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact.Mariya_Aishatu
+  m_EditorClassIdentifier: 
+  mTechnicalName: Mariya_Aishatu
+  mDisplayName: $Enum.FactionCharacterContact.Mariya_Aishatu.DisplayName
+  mValue: 2
+--- !u!114 &846448689439977954
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.LineArrowHead
+  m_EditorClassIdentifier: 
+  mTechnicalName: LineArrowHead
+  mDisplayName: LineArrowHead
+  mValue: 2
+--- !u!114 &866485455788079229
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Children
+  m_EditorClassIdentifier: 
+  mTechnicalName: Children
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Collections.ArrayList, mscorlib, Version=4.0.0.0, Culture=neutral,
+    PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1100651024531028456
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DisplayName
+  m_EditorClassIdentifier: 
+  mTechnicalName: DisplayName
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1124271129634371703
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy.Expanse_Inc
+  m_EditorClassIdentifier: 
+  mTechnicalName: Expanse_Inc
+  mDisplayName: $Enum.RivalLowDiplomacy.Expanse_Inc.DisplayName
+  mValue: 3
+--- !u!114 &1178189752826861390
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Link
+  m_EditorClassIdentifier: 
+  mTechnicalName: Link
+  mDisplayName: Link
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Link, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -6085494530676561036}
+  - {fileID: -188569019098971281}
+  - {fileID: 2273801062868242833}
+  - {fileID: 4445243113533923338}
+  - {fileID: -2798837811086606289}
+  - {fileID: 6207815425516635720}
+  - {fileID: -2125669037027930423}
+  - {fileID: 1305201594782546122}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &1305201594782546122
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DropShadow
+  m_EditorClassIdentifier: 
+  mTechnicalName: DropShadow
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1364502312676151053
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Id
+  m_EditorClassIdentifier: 
+  mTechnicalName: Id
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1447417177579784394
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ForcedWidth
+  m_EditorClassIdentifier: 
+  mTechnicalName: ForcedWidth
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &1608293563577001107
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy.Expanse_Inc
+  m_EditorClassIdentifier: 
+  mTechnicalName: Expanse_Inc
+  mDisplayName: $Enum.AllyHighDiplomacy.Expanse_Inc.DisplayName
+  mValue: 3
+--- !u!114 &1618048307597371769
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultMainCharacterTemplate
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultMainCharacterTemplate
+  mDisplayName: $Template.DefaultMainCharacterTemplate.DisplayName
+  mBaseType: {fileID: 3040116907430246455}
+  mCSharpType: Articy.Sola.DefaultMainCharacterTemplate, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - ArticyDefaultCharacterExtended
+  - ArticyDefaultCharacterBasic
+  mProperties:
+  - {fileID: 3327147484856562803}
+  - {fileID: 7733170955764514426}
+  - {fileID: 8192506606845153716}
+  - {fileID: -643808077378723388}
+  - {fileID: -5147402033386907629}
+  - {fileID: 4370383702630370430}
+  - {fileID: 2180034791985037107}
+  - {fileID: -4006382308267244478}
+  - {fileID: 7444663401133242741}
+  - {fileID: -3542841106401410090}
+  - {fileID: 7192862288599723933}
+  - {fileID: 4553526592666188277}
+  - {fileID: 2125962199712429158}
+  - {fileID: -3052612408524295706}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &1626987846281409280
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy.Expanse_Inc
+  m_EditorClassIdentifier: 
+  mTechnicalName: Expanse_Inc
+  mDisplayName: $Enum.AllyLowDiplomacy.Expanse_Inc.DisplayName
+  mValue: 3
+--- !u!114 &1680367481310854327
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy.Marson_Industries
+  m_EditorClassIdentifier: 
+  mTechnicalName: Marson_Industries
+  mDisplayName: $Enum.RivalHighDiplomacy.Marson_Industries.DisplayName
+  mValue: 4
+--- !u!114 &1746173475963322596
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy.Silvert_Transnational
+  m_EditorClassIdentifier: 
+  mTechnicalName: Silvert_Transnational
+  mDisplayName: $Enum.AllyLowDiplomacy.Silvert_Transnational.DisplayName
+  mValue: 5
+--- !u!114 &1768009140986741376
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact.Chrisjen_Nygaard
+  m_EditorClassIdentifier: 
+  mTechnicalName: Chrisjen_Nygaard
+  mDisplayName: $Enum.FactionCharacterContact.Chrisjen_Nygaard.DisplayName
+  mValue: 1
+--- !u!114 &1825019801076831786
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Sex.Unknown
+  m_EditorClassIdentifier: 
+  mTechnicalName: Unknown
+  mDisplayName: $Enum.Sex.Unknown.DisplayName
+  mValue: 2
+--- !u!114 &2055035158485203116
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy.Silvert_Transnational
+  m_EditorClassIdentifier: 
+  mTechnicalName: Silvert_Transnational
+  mDisplayName: $Enum.RivalHighDiplomacy.Silvert_Transnational.DisplayName
+  mValue: 5
+--- !u!114 &2119867352511105341
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.Personality
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.Personality
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.Personality.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &2125962199712429158
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Personality
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Personality
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Personality.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &2180034791985037107
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Age
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Age
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Age.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 0
+  - 0
+  - 0
+  - 3,40282346638529E+38
+  - 0
+  - -3,40282346638529E+38
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &2273801062868242833
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Visibility
+  m_EditorClassIdentifier: 
+  mTechnicalName: Visibility
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.VisibilityModes, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &2366433922374539299
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Asset
+  m_EditorClassIdentifier: 
+  mTechnicalName: Asset
+  mDisplayName: Asset
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Asset, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 4336240002969293338}
+  - {fileID: 8650054470145014399}
+  - {fileID: 6344991073977291472}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &2374895971779259371
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Link
+  m_EditorClassIdentifier: 
+  mTechnicalName: Link
+  mDisplayName: Link
+  mValue: 6
+--- !u!114 &2379147975707748800
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: VisibilityModes
+  m_EditorClassIdentifier: 
+  mTechnicalName: VisibilityModes
+  mDisplayName: VisibilityModes
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.VisibilityModes, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 4803891036874771492}
+  - {fileID: -2117420457193421250}
+--- !u!114 &2580543492687665468
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ImageAsset
+  m_EditorClassIdentifier: 
+  mTechnicalName: ImageAsset
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &2822708267799316409
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy.Marson_Industries
+  m_EditorClassIdentifier: 
+  mTechnicalName: Marson_Industries
+  mDisplayName: $Enum.RivalLowDiplomacy.Marson_Industries.DisplayName
+  mValue: 4
+--- !u!114 &2938528283417097617
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Instruction
+  m_EditorClassIdentifier: 
+  mTechnicalName: Instruction
+  mDisplayName: Instruction
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Instruction, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 4371239448508003502}
+  - {fileID: -7289412639524625137}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &2944840868963601244
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.Dot
+  m_EditorClassIdentifier: 
+  mTechnicalName: Dot
+  mDisplayName: Dot
+  mValue: 1
+--- !u!114 &2987046969117820118
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  mTechnicalName: Text
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3018792431239019684
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutlineStyle
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.OutlineStyle, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3040116907430246455
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Entity
+  m_EditorClassIdentifier: 
+  mTechnicalName: Entity
+  mDisplayName: Entity
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Entity, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &3274684388571858010
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Speaker
+  m_EditorClassIdentifier: 
+  mTechnicalName: Speaker
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3298411705228547863
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ClipRect
+  m_EditorClassIdentifier: 
+  mTechnicalName: ClipRect
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Rect, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3327147484856562803
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterExtended.Motivation
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterExtended.Motivation
+  mDisplayName: $Property.ArticyDefaultCharacterExtended.Motivation.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &3661747911856024594
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.Solid
+  m_EditorClassIdentifier: 
+  mTechnicalName: Solid
+  mDisplayName: Solid
+  mValue: 0
+--- !u!114 &3719410064389757066
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutputPins
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutputPins
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.List`1, ArticyGenerated
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &3971315856733835837
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CreatedBy
+  m_EditorClassIdentifier: 
+  mTechnicalName: CreatedBy
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4079576330889982667
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: InstanceId
+  m_EditorClassIdentifier: 
+  mTechnicalName: InstanceId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4247414902342421148
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Accent
+  m_EditorClassIdentifier: 
+  mTechnicalName: Accent
+  mDisplayName: $Enum.Accent.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.Accent, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 5151824458142113962}
+  - {fileID: -3422515216135333358}
+  - {fileID: 7256743507508424280}
+--- !u!114 &4310945906344325267
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: TechnicalName
+  m_EditorClassIdentifier: 
+  mTechnicalName: TechnicalName
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4336240002969293338
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Filename
+  m_EditorClassIdentifier: 
+  mTechnicalName: Filename
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4370383702630370430
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterExtended.FurtherDetails
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterExtended.FurtherDetails
+  mDisplayName: $Property.ArticyDefaultCharacterExtended.FurtherDetails.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &4371239448508003502
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Expression
+  m_EditorClassIdentifier: 
+  mTechnicalName: Expression
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.ArticyScriptCondition, ArticyRuntime, Version=2.4.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4445243113533923338
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShowDisplayName
+  m_EditorClassIdentifier: 
+  mTechnicalName: ShowDisplayName
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &4480857495980595553
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy.Athos_Trust_Society
+  m_EditorClassIdentifier: 
+  mTechnicalName: Athos_Trust_Society
+  mDisplayName: $Enum.AllyLowDiplomacy.Athos_Trust_Society.DisplayName
+  mValue: 1
+--- !u!114 &4552088337977131033
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: TextObject
+  m_EditorClassIdentifier: 
+  mTechnicalName: TextObject
+  mDisplayName: TextObject
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.TextObject, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: -3206661874962339647}
+  - {fileID: 6344991073977291472}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &4553526592666188277
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Accent
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Accent
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Accent.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &4608425675342663924
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy.Delling_Institute
+  m_EditorClassIdentifier: 
+  mTechnicalName: Delling_Institute
+  mDisplayName: $Enum.AllyHighDiplomacy.Delling_Institute.DisplayName
+  mValue: 2
+--- !u!114 &4657458942480408456
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationAnchorSize.Medium
+  m_EditorClassIdentifier: 
+  mTechnicalName: Medium
+  mDisplayName: Medium
+  mValue: 1
+--- !u!114 &4673540773517697909
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Sex
+  m_EditorClassIdentifier: 
+  mTechnicalName: Sex
+  mDisplayName: $Enum.Sex.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.Sex, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 4956582579243583471}
+  - {fileID: -3672786716856514124}
+  - {fileID: 1825019801076831786}
+--- !u!114 &4708427753289454011
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact.Caspar_Fisk
+  m_EditorClassIdentifier: 
+  mTechnicalName: Caspar_Fisk
+  mDisplayName: $Enum.FactionCharacterContact.Caspar_Fisk.DisplayName
+  mValue: 0
+--- !u!114 &4803891036874771492
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: VisibilityModes.Invisible
+  m_EditorClassIdentifier: 
+  mTechnicalName: Invisible
+  mDisplayName: Invisible
+  mValue: 0
+--- !u!114 &4931521445619266819
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy.Silvert_Transnational
+  m_EditorClassIdentifier: 
+  mTechnicalName: Silvert_Transnational
+  mDisplayName: $Enum.RivalLowDiplomacy.Silvert_Transnational.DisplayName
+  mValue: 5
+--- !u!114 &4956582579243583471
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Sex.Male
+  m_EditorClassIdentifier: 
+  mTechnicalName: Male
+  mDisplayName: $Enum.Sex.Male.DisplayName
+  mValue: 0
+--- !u!114 &5071965298359643717
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.FilledArrowHead
+  m_EditorClassIdentifier: 
+  mTechnicalName: FilledArrowHead
+  mDisplayName: FilledArrowHead
+  mValue: 3
+--- !u!114 &5151824458142113962
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Accent.Male
+  m_EditorClassIdentifier: 
+  mTechnicalName: Male
+  mDisplayName: $Enum.Accent.Male.DisplayName
+  mValue: 0
+--- !u!114 &5321560762162383732
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineColor
+  m_EditorClassIdentifier: 
+  mTechnicalName: OutlineColor
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &5406052903284898792
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Position
+  m_EditorClassIdentifier: 
+  mTechnicalName: Position
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &5564787850730372937
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalLowDiplomacy.Athos_Trust_Society
+  m_EditorClassIdentifier: 
+  mTechnicalName: Athos_Trust_Society
+  mDisplayName: $Enum.RivalLowDiplomacy.Athos_Trust_Society.DisplayName
+  mValue: 1
+--- !u!114 &5590783401312655095
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: RivalHighDiplomacy.Athos_Trust_Society
+  m_EditorClassIdentifier: 
+  mTechnicalName: Athos_Trust_Society
+  mDisplayName: $Enum.RivalHighDiplomacy.Athos_Trust_Society.DisplayName
+  mValue: 1
+--- !u!114 &5700253703500209286
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Spot
+  m_EditorClassIdentifier: 
+  mTechnicalName: Spot
+  mDisplayName: Spot
+  mValue: 1
+--- !u!114 &5765960293007258193
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterTemplate.Fears
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterTemplate.Fears
+  mDisplayName: $Property.DefaultExtendedCharacterTemplate.Fears.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &5846989920692154909
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyLowDiplomacy.Astraea_Technologies
+  m_EditorClassIdentifier: 
+  mTechnicalName: Astraea_Technologies
+  mDisplayName: $Enum.AllyLowDiplomacy.Astraea_Technologies.DisplayName
+  mValue: 0
+--- !u!114 &5934423573981673429
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFirmCharacterTemplate
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFirmCharacterTemplate
+  mDisplayName: $Template.DefaultFirmCharacterTemplate.DisplayName
+  mBaseType: {fileID: 3040116907430246455}
+  mCSharpType: Articy.Sola.DefaultFirmCharacterTemplate, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - DefaultExtendedCharacterTemplate
+  - DefaultBasicCharacterTemplate
+  mProperties:
+  - {fileID: 6497303260198862538}
+  - {fileID: -7464248858819893649}
+  - {fileID: 8426787050410153174}
+  - {fileID: 5765960293007258193}
+  - {fileID: -5176785083002492156}
+  - {fileID: -6435004209952988550}
+  - {fileID: -2486521465908520923}
+  - {fileID: 6500456072159763261}
+  - {fileID: -2795180792347138833}
+  - {fileID: 510983550619375769}
+  - {fileID: -6676217464954429561}
+  - {fileID: 2119867352511105341}
+  - {fileID: -1098090745828363753}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &5945767214343207053
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ParentId
+  m_EditorClassIdentifier: 
+  mTechnicalName: ParentId
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &6044201276176929657
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: TargetPin
+  m_EditorClassIdentifier: 
+  mTechnicalName: TargetPin
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.UInt64, ArticyGenerated
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &6207815425516635720
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DisplayNameSize
+  m_EditorClassIdentifier: 
+  mTechnicalName: DisplayNameSize
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &6209252219082845418
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy.Athos_Trust_Society
+  m_EditorClassIdentifier: 
+  mTechnicalName: Athos_Trust_Society
+  mDisplayName: $Enum.AllyHighDiplomacy.Athos_Trust_Society.DisplayName
+  mValue: 1
+--- !u!114 &6344991073977291472
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImage
+  m_EditorClassIdentifier: 
+  mTechnicalName: PreviewImage
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.PreviewImage, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &6347618639792150854
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Hub
+  m_EditorClassIdentifier: 
+  mTechnicalName: Hub
+  mDisplayName: Hub
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Hub, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &6393187026609044508
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Location
+  m_EditorClassIdentifier: 
+  mTechnicalName: Location
+  mDisplayName: Location
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Location, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &6403537185682520320
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PreviewImageViewBoxModes
+  m_EditorClassIdentifier: 
+  mTechnicalName: PreviewImageViewBoxModes
+  mDisplayName: PreviewImageViewBoxModes
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Unity.PreviewImageViewBoxModes, ArticyRuntime, Version=2.4.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: -4010303587527575026}
+  - {fileID: -1735755973608396519}
+--- !u!114 &6497303260198862538
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterTemplate.Motivation
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterTemplate.Motivation
+  mDisplayName: $Property.DefaultExtendedCharacterTemplate.Motivation.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &6500456072159763261
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultBasicCharacterTemplate.Nationality
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultBasicCharacterTemplate.Nationality
+  mDisplayName: $Property.DefaultBasicCharacterTemplate.Nationality.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &6556953358243536211
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionCharacterContact
+  mDisplayName: $Enum.FactionCharacterContact.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.FactionCharacterContact, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 4708427753289454011}
+  - {fileID: 1768009140986741376}
+  - {fileID: 559698496012726209}
+  - {fileID: 8457142885282339871}
+  - {fileID: -1113224342785766355}
+  - {fileID: -4415381046370133643}
+--- !u!114 &6599954639172386610
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationImage
+  m_EditorClassIdentifier: 
+  mTechnicalName: LocationImage
+  mDisplayName: LocationImage
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.LocationImage, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: -414168705567784997}
+  - {fileID: 7172889358073411925}
+  - {fileID: 8694650361059186376}
+  - {fileID: 9190544247491609547}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 2273801062868242833}
+  - {fileID: 5321560762162383732}
+  - {fileID: 317909459983305272}
+  - {fileID: 3018792431239019684}
+  - {fileID: -2125669037027930423}
+  - {fileID: 1305201594782546122}
+  - {fileID: 3298411705228547863}
+  - {fileID: -3266424933976227667}
+  - {fileID: 2580543492687665468}
+  - {fileID: 8603392221833528107}
+  - {fileID: -4726568227263302649}
+  - {fileID: 4445243113533923338}
+  - {fileID: -2798837811086606289}
+  - {fileID: 6207815425516635720}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &6624030319458306042
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultSupportingCharacterTemplate
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultSupportingCharacterTemplate
+  mDisplayName: $Template.DefaultSupportingCharacterTemplate.DisplayName
+  mBaseType: {fileID: 3040116907430246455}
+  mCSharpType: Articy.Sola.DefaultSupportingCharacterTemplate, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - ArticyDefaultCharacterBasic
+  mProperties:
+  - {fileID: 2180034791985037107}
+  - {fileID: -4006382308267244478}
+  - {fileID: 7444663401133242741}
+  - {fileID: -3542841106401410090}
+  - {fileID: 7192862288599723933}
+  - {fileID: 4553526592666188277}
+  - {fileID: 2125962199712429158}
+  - {fileID: -3052612408524295706}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &6762859178902244418
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DialogueFragment
+  m_EditorClassIdentifier: 
+  mTechnicalName: DialogueFragment
+  mDisplayName: DialogueFragment
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.DialogueFragment, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -2236670916411609355}
+  - {fileID: -2036666506089665661}
+  - {fileID: 3274684388571858010}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &6776790021991663470
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType
+  m_EditorClassIdentifier: 
+  mTechnicalName: ShapeType
+  mDisplayName: ShapeType
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.ShapeType, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: 8345869793852628914}
+  - {fileID: 5700253703500209286}
+  - {fileID: -3383972499594304654}
+  - {fileID: 7144079109386262443}
+  - {fileID: -8366128852430549370}
+  - {fileID: -2437599862211574552}
+  - {fileID: 2374895971779259371}
+--- !u!114 &6975378243082964614
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Spot
+  m_EditorClassIdentifier: 
+  mTechnicalName: Spot
+  mDisplayName: Spot
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Spot, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 2273801062868242833}
+  - {fileID: 4445243113533923338}
+  - {fileID: -2798837811086606289}
+  - {fileID: 6207815425516635720}
+  - {fileID: 5321560762162383732}
+  - {fileID: 317909459983305272}
+  - {fileID: 3018792431239019684}
+  - {fileID: 1305201594782546122}
+  - {fileID: -2125669037027930423}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &6984876281413139277
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy
+  m_EditorClassIdentifier: 
+  mTechnicalName: AllyHighDiplomacy
+  mDisplayName: $Enum.AllyHighDiplomacy.DisplayName
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.AllyHighDiplomacy, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: -7182476015076519714}
+  - {fileID: 6209252219082845418}
+  - {fileID: 4608425675342663924}
+  - {fileID: 1608293563577001107}
+  - {fileID: -5938448750370351590}
+  - {fileID: 7668105779025122680}
+--- !u!114 &7073399516341219322
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionTemplateExtended.ReasonLowAlly
+  m_EditorClassIdentifier: 
+  mTechnicalName: FactionTemplateExtended.ReasonLowAlly
+  mDisplayName: $Property.FactionTemplateExtended.ReasonLowAlly.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - False
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &7081281299609841643
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Comment
+  m_EditorClassIdentifier: 
+  mTechnicalName: Comment
+  mDisplayName: Comment
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Comment, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 3971315856733835837}
+  - {fileID: -8582240311123518751}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &7144079109386262443
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Rectangle
+  m_EditorClassIdentifier: 
+  mTechnicalName: Rectangle
+  mDisplayName: Rectangle
+  mValue: 3
+--- !u!114 &7172889358073411925
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Vertices
+  m_EditorClassIdentifier: 
+  mTechnicalName: Vertices
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.List`1, ArticyGenerated
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &7192862288599723933
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.Occupation
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.Occupation
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.Occupation.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &7256743507508424280
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Accent.Unknown
+  m_EditorClassIdentifier: 
+  mTechnicalName: Unknown
+  mDisplayName: $Enum.Accent.Unknown.DisplayName
+  mValue: 2
+--- !u!114 &7444663401133242741
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterBasic.BornIn
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterBasic.BornIn
+  mDisplayName: $Property.ArticyDefaultCharacterBasic.BornIn.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - False
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &7644363056688472799
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: PathCaps.Diamond
+  m_EditorClassIdentifier: 
+  mTechnicalName: Diamond
+  mDisplayName: Diamond
+  mValue: 4
+--- !u!114 &7668105779025122680
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: AllyHighDiplomacy.Silvert_Transnational
+  m_EditorClassIdentifier: 
+  mTechnicalName: Silvert_Transnational
+  mDisplayName: $Enum.AllyHighDiplomacy.Silvert_Transnational.DisplayName
+  mValue: 5
+--- !u!114 &7733170955764514426
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterExtended.InnerConflict
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterExtended.InnerConflict
+  mDisplayName: $Property.ArticyDefaultCharacterExtended.InnerConflict.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &8192506606845153716
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDefaultCharacterExtended.Skills
+  m_EditorClassIdentifier: 
+  mTechnicalName: ArticyDefaultCharacterExtended.Skills
+  mDisplayName: $Property.ArticyDefaultCharacterExtended.Skills.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &8198086131562424662
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: SelectabilityModes
+  m_EditorClassIdentifier: 
+  mTechnicalName: SelectabilityModes
+  mDisplayName: SelectabilityModes
+  mBaseType: {fileID: 0}
+  mCSharpType: Articy.Sola.SelectabilityModes, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 1
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties: []
+  mEnumValues:
+  - {fileID: -8438948088793690289}
+  - {fileID: -3236413165331275105}
+--- !u!114 &8204809805816935060
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocationText
+  m_EditorClassIdentifier: 
+  mTechnicalName: LocationText
+  mDisplayName: LocationText
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.LocationText, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: 1100651024531028456}
+  - {fileID: 6344991073977291472}
+  - {fileID: -414168705567784997}
+  - {fileID: 7172889358073411925}
+  - {fileID: 8694650361059186376}
+  - {fileID: 9190544247491609547}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 2273801062868242833}
+  - {fileID: 5321560762162383732}
+  - {fileID: 317909459983305272}
+  - {fileID: 3018792431239019684}
+  - {fileID: -2125669037027930423}
+  - {fileID: 1447417177579784394}
+  - {fileID: -1947463869513257707}
+  - {fileID: 1305201594782546122}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &8345869793852628914
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType.Invalid
+  m_EditorClassIdentifier: 
+  mTechnicalName: Invalid
+  mDisplayName: Invalid
+  mValue: 0
+--- !u!114 &8366601124232443701
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultFirmCharacterShort
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultFirmCharacterShort
+  mDisplayName: $Template.DefaultFirmCharacterShort.DisplayName
+  mBaseType: {fileID: 3040116907430246455}
+  mCSharpType: Articy.Sola.DefaultFirmCharacterShort, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 1
+  mFeatures:
+  - DefaultBasicCharacterTemplate
+  mProperties:
+  - {fileID: -2486521465908520923}
+  - {fileID: 6500456072159763261}
+  - {fileID: -2795180792347138833}
+  - {fileID: 510983550619375769}
+  - {fileID: -6676217464954429561}
+  - {fileID: 2119867352511105341}
+  - {fileID: -1098090745828363753}
+  - {fileID: -3206661874962339647}
+  - {fileID: 1100651024531028456}
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: 6344991073977291472}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &8426787050410153174
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: DefaultExtendedCharacterTemplate.Skills
+  m_EditorClassIdentifier: 
+  mTechnicalName: DefaultExtendedCharacterTemplate.Skills
+  mDisplayName: $Property.DefaultExtendedCharacterTemplate.Skills.DisplayName
+  mIsTemplateProperty: 1
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  mConstraintValues:
+  - 
+  - 
+  - 
+  - True
+  - 
+  - False
+  - True
+  - 2048
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 
+  - 0
+  - 
+  - 
+  - 
+--- !u!114 &8457142885282339871
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: FactionCharacterContact.Nathan_Burton
+  m_EditorClassIdentifier: 
+  mTechnicalName: Nathan_Burton
+  mDisplayName: $Enum.FactionCharacterContact.Nathan_Burton.DisplayName
+  mValue: 3
+--- !u!114 &8476483476343890760
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 747260720, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Jump
+  m_EditorClassIdentifier: 
+  mTechnicalName: Jump
+  mDisplayName: Jump
+  mBaseType: {fileID: -481091123746797926}
+  mCSharpType: Articy.Sola.Jump, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mIsEnum: 0
+  mHasTemplate: 0
+  mFeatures: []
+  mProperties:
+  - {fileID: -7289412639524625137}
+  - {fileID: 2987046969117820118}
+  - {fileID: -8221759767641165199}
+  - {fileID: 5406052903284898792}
+  - {fileID: -5692865301164988197}
+  - {fileID: 8631278854520201605}
+  - {fileID: -188569019098971281}
+  - {fileID: 1364502312676151053}
+  - {fileID: 4310945906344325267}
+  - {fileID: 221983825262469317}
+  - {fileID: -6085494530676561036}
+  - {fileID: 6044201276176929657}
+  - {fileID: -6251556556627797927}
+  - {fileID: 3719410064389757066}
+  - {fileID: 5945767214343207053}
+  - {fileID: 4079576330889982667}
+  - {fileID: 866485455788079229}
+  mEnumValues: []
+--- !u!114 &8603392221833528107
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: CachedImageWidth
+  m_EditorClassIdentifier: 
+  mTechnicalName: CachedImageWidth
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8631278854520201605
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Size
+  m_EditorClassIdentifier: 
+  mTechnicalName: Size
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8650054470145014399
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OriginalSource
+  m_EditorClassIdentifier: 
+  mTechnicalName: OriginalSource
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8694650361059186376
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: Transform
+  m_EditorClassIdentifier: 
+  mTechnicalName: Transform
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Unity.Transformation, ArticyRuntime, Version=2.4.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
+--- !u!114 &8800041374785299228
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246416443, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: OutlineStyle.DashDotDot
+  m_EditorClassIdentifier: 
+  mTechnicalName: DashDotDot
+  mDisplayName: DashDotDot
+  mValue: 4
+--- !u!114 &9190544247491609547
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -152228120, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ShapeType
+  m_EditorClassIdentifier: 
+  mTechnicalName: ShapeType
+  mDisplayName: 
+  mIsTemplateProperty: 0
+  mPropertyType: Articy.Sola.ShapeType, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  mConstraintNames: 
+  mConstraintValues: []
