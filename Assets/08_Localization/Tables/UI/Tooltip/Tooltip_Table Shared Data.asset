@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Tooltip_Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Tooltip_Table
+  m_TableCollectionNameGuidString: 38273a935da114b4d902a7c469a6c63e
+  m_Entries:
+  - m_Id: 23899661291520
+    m_Key: cameraFocus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24112530608128
+    m_Key: cameraReset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24630946582528
+    m_Key: demolishButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24864326045696
+    m_Key: moveButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106011565346816
+    m_Key: money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106045031698432
+    m_Key: oxygen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106096789409792
+    m_Key: energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106146995228672
+    m_Key: aluminum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106299839860736
+    m_Key: water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106468748677120
+    m_Key: biopolymer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106559765073920
+    m_Key: workforceEcology
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10974456555130880
+    m_Key: tube
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10974505196474368
+    m_Key: solarModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012090862129152
+    m_Key: scrapGatherer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012179110285312
+    m_Key: iceMiner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012460824907776
+    m_Key: oxygenModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012834122158080
+    m_Key: populationModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012913444835328
+    m_Key: aquaponicModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11013068608917504
+    m_Key: biopolymerModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015005194571776
+    m_Key: distillery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015220903432192
+    m_Key: fruitSliceFactory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015332639690752
+    m_Key: storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015440877899776
+    m_Key: acrylglasModule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015508703989760
+    m_Key: shuttleBay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17131581606088704
+    m_Key: questDiary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17131682462322688
+    m_Key: diplomacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942875849281536
+    m_Key: population
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21307657026686976
+    m_Key: oxygenOverlay
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8979735801512853506
+  references:
+    version: 2
+    RefIds:
+    - rid: 8979735801512853506
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1654612697063

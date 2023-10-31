@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English (en)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 65d2134bc2173674cbcb50d9b6af5b1a
+  m_SerializeEntries:
+  - m_GUID: 9b0e737c498ca774e9a3dea606507deb
+    m_Address: Quest 1 - 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 1786fef81877b414fb744bc560158224
+    m_Address: Quest 1 - 2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 98662fb99b9e37f4fa3399a39a6f52ad
+    m_Address: Quest 1 - 3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 5713eb932409dd44e823253476f5358b
+    m_Address: Quest 1 - 4
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 611423b597e19944f96f86e5fcc17dc3
+    m_Address: Quest 1 - 5
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 058732e988f2845469e997e82341761d
+    m_Address: Quest 1 - 7
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 9a187296133f83045814867e416f229f
+    m_Address: Quest 1 - 8
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: c4eaffde5083a014b99992fa25967051
+    m_Address: Quest 2 - 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 8773dd4e5c1bc18408fb8b728d40c081
+    m_Address: Quest 2 - 2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 8055dc3c871cb85438a5664923bd5160
+    m_Address: Quest 2 - 3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 386d1cdb809657d4c9a0583bceab843a
+    m_Address: Quest 2 - 4
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 08f77a9e30918ef438112dd59f263fd9
+    m_Address: Quest 2 - 5
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 6c42d1ad5695bdb489805fd6de3de1eb
+    m_Address: Quest-3-1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: ba7f9bf842485944ab6e17cdbfaeae2c
+    m_Address: Quest-3-2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 94e9d9f8d06124d4b810eb4f23e9a211
+    m_Address: Quest-3-3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 0c49d7e45c30d4b40986df8ea2932a6d
+    m_Address: Quest-4-1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 128094b83188eb74c9bba9383fc68928
+    m_Address: Quest-4-2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: f5ad065012a54944386cd8522688f7a8
+    m_Address: Quest-4-3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 993bbeeda610be6439b43128d29f2131
+    m_Address: Quest-4-4
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  - m_GUID: 6516847ca3949d944a945c672d7e09bd
+    m_Address: Quest-4-5
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-de
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 74b08988ae7fc2547979bde57676fa1a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b3e1c88005aad7142845d307f65ac07d, type: 2}
+    - {fileID: 11400000, guid: 2db0f7d339992df49b9c54e21640ec22, type: 2}

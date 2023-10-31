@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Warning_Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: db63112c3aa3a7e47aee7d75b5577f05, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4490255290368
+    m_Localized: 'Choose modules you want to demolish and confirm with the demolish
+      button. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4906661597184
+    m_Localized: 'Choose module and move to the new place. Rotate module with "R,
+      F and G key". '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5833468563456
+    m_Localized: Hold "shift" for multiplacing tubes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10826883230015488
+    m_Localized: Module not supported with oxygen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10829099345059840
+    m_Localized: Not enough resources to build the module.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10830210504269824
+    m_Localized: Low water production.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10831887655444480
+    m_Localized: 'Rotate module: "R, F and G key."
+
+      Rotate grid: "Hold shift"
+      and rotate with "R, F and G key."
+
+      Move grid: "Hold shift" and move grid
+      with "W and S key."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15519889347604480
+    m_Localized: Hover with the mouse over a module and press the "space key."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20609561162567680
+    m_Localized: Deletion not Possible! All modules need to be connected to the Main
+      Module.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

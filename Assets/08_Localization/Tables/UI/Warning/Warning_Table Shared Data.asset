@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Warning_Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Warning_Table
+  m_TableCollectionNameGuidString: db63112c3aa3a7e47aee7d75b5577f05
+  m_Entries:
+  - m_Id: 4490255290368
+    m_Key: demolishMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4906661597184
+    m_Key: moveMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5833468563456
+    m_Key: "tubeSelected \n(Info /Spieler hat eine Tube ausgew\xE4hlt im Baumen\xFC)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10826883230015488
+    m_Key: "noOxygen \n(Warning / Modul nicht mit Oxygen versorgt) "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10829099345059840
+    m_Key: "noRessources\n(Warning / Spieler baut ohne gen\xFCgend Ressourcen)\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10830210504269824
+    m_Key: 'lowWater
+
+      (Warning / Water production under water consumption)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10831887655444480
+    m_Key: buildingMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15519889347604480
+    m_Key: 'setFocus
+
+      (Info / Set Focus Button)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20609561162567680
+    m_Key: deletionNotPossible
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8979735801512853511
+  references:
+    version: 2
+    RefIds:
+    - rid: 8979735801512853511
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1654693883705

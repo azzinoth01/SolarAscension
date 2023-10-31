@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: QuestUI_Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8099059970dce514fa78df51cca7f86c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12655415296
+    m_Localized: Accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15704674304
+    m_Localized: Decline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18896539648
+    m_Localized: Claim Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17148316635136
+    m_Localized: Active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17184626724864
+    m_Localized: Done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407080524730368
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407123637981184
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407235353268224
+    m_Localized: Quest Diary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5305993694171136
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15736634755665920
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

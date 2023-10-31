@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tooltip_Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 38273a935da114b4d902a7c469a6c63e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 23899661291520
+    m_Localized: 'Set camera focus point
+
+      (Space)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24112530608128
+    m_Localized: 'Set focus and camera to start Position
+
+      (C)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24630946582528
+    m_Localized: Demolish Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24864326045696
+    m_Localized: Move Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106011565346816
+    m_Localized: Money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106045031698432
+    m_Localized: Oxygen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106096789409792
+    m_Localized: Energy Consumption | Production
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106146995228672
+    m_Localized: Aluminum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106299839860736
+    m_Localized: Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106468748677120
+    m_Localized: Biopolymer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106559765073920
+    m_Localized: Ecologists available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10974456555130880
+    m_Localized: Tube
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10974505196474368
+    m_Localized: Solar Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012090862129152
+    m_Localized: Scrap Gatherer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012179110285312
+    m_Localized: Ice Miner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012460824907776
+    m_Localized: Oxygen Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012834122158080
+    m_Localized: Population Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012913444835328
+    m_Localized: Aquaponics Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11013068608917504
+    m_Localized: Biopolymer Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015005194571776
+    m_Localized: Distillery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015220903432192
+    m_Localized: Fruit Slice Factory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015332639690752
+    m_Localized: Storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015440877899776
+    m_Localized: Acrylglas Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015508703989760
+    m_Localized: Shuttle Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17131581606088704
+    m_Localized: Quest Diary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17131682462322688
+    m_Localized: Diplomacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942875849281536
+    m_Localized: Population
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21307657026686976
+    m_Localized: Oxygen Overlay
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

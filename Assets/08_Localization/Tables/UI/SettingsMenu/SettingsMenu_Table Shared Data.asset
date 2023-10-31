@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SettingsMenu_Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: SettingsMenu_Table
+  m_TableCollectionNameGuidString: 13a86dca45989b240970f6904fcacd33
+  m_Entries:
+  - m_Id: 8067293184
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3986288673366016
+    m_Key: camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6216637109313536
+    m_Key: videoSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6216730919116800
+    m_Key: audioSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6216799944777728
+    m_Key: keybindSettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6216908476588032
+    m_Key: gameplaySettings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6223000669593600
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6228019766697984
+    m_Key: masterVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265404147703808
+    m_Key: musicVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265485559144448
+    m_Key: effectsVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265597559644160
+    m_Key: uiVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265672931287040
+    m_Key: voiceVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6295563563245568
+    m_Key: horizontalSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6295720203722752
+    m_Key: verticalSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6295802558881792
+    m_Key: mouseHorizontalSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6295951242764288
+    m_Key: mouseVerticalSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6296066061836288
+    m_Key: rotationSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6308517637595136
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6424809992429568
+    m_Key: display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6462064618446848
+    m_Key: windowMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6462196151820288
+    m_Key: resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6462251998978048
+    m_Key: enableVSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515098555850752
+    m_Key: restoreDefaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30885504196169728
+    m_Key: assists
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30885609775190016
+    m_Key: cameraAutoFollow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30890054164566016
+    m_Key: rotationGizmos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30890321488531456
+    m_Key: blockedVolumeGizmos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30893630333014016
+    m_Key: effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30895094065418240
+    m_Key: chromaticAberration
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6811833257995010059
+  references:
+    version: 2
+    RefIds:
+    - rid: 6811833257995010059
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1652362597130

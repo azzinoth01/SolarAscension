@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Warning_Table_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: db63112c3aa3a7e47aee7d75b5577f05, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4490255290368
+    m_Localized: "W\xE4hle Module die du abrei\xDFen m\xF6chtest und best\xE4tige
+      mit dem Abrei\xDFen-Knopf"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4906661597184
+    m_Localized: "W\xE4hle Module die du bewegen m\xF6chtest.\nRotiere Module mit
+      der \"R, F und G Taste\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5833468563456
+    m_Localized: 'Halte "shift" um  mehrere Tubes aneinander zu platzieren. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10826883230015488
+    m_Localized: 'Ein Modul wird nicht mit Sauerstoff versorgt. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10829099345059840
+    m_Localized: "Nicht gen\xFCgend Ressourcen um das Modul zu bauen.\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10830210504269824
+    m_Localized: Niedrige Wasserproduktion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10831887655444480
+    m_Localized: "Modul rotieren: \"R, F und G Taste.\"\nGitter rotieren: \"Halte
+      Shift\" gedr\xFCckt und drehe  das Gitter mit den \"Tasten R, F und G.\r\"\n\rGitter
+      verschieben: \"Shift halten\" und mit den \"Tasten W und S\" das Gitter verschieben.
+      \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15519889347604480
+    m_Localized: "Bewege die Maus \xFCber ein Modul und dr\xFCcke  die \"Leertaste.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20609561162567680
+    m_Localized: "Abriss nicht m\xF6glich! Alle Module ben\xF6tigen eine Verbindung
+      zum Main Module"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

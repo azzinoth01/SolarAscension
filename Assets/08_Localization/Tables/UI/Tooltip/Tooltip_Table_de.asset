@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tooltip_Table_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 38273a935da114b4d902a7c469a6c63e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 23899661291520
+    m_Localized: 'Setze den Kamera Fokus-Punkt
+
+      (Leertaste)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24112530608128
+    m_Localized: "Setze Kamera und Fokus auf Startposition zur\xFCck\n(C)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24630946582528
+    m_Localized: "Abrei\xDF-Modus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24864326045696
+    m_Localized: Beweg-Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106011565346816
+    m_Localized: Geld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106045031698432
+    m_Localized: Sauerstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106096789409792
+    m_Localized: Energie Verbrauch | Produktion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106146995228672
+    m_Localized: Aluminium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106299839860736
+    m_Localized: Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106468748677120
+    m_Localized: Biopolymer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106559765073920
+    m_Localized: "verf\xFCgbare \xD6kologen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10974456555130880
+    m_Localized: Verbindung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10974505196474368
+    m_Localized: Solarmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012090862129152
+    m_Localized: Schrottsammler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012179110285312
+    m_Localized: "Eissch\xFCrfer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012460824907776
+    m_Localized: Sauerstoffmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012834122158080
+    m_Localized: "Bev\xF6lkerungsmodul"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11012913444835328
+    m_Localized: Aquaponikmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11013068608917504
+    m_Localized: Biopolymermodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015005194571776
+    m_Localized: Distillerie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015220903432192
+    m_Localized: Fruchtschnittenfabrik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015332639690752
+    m_Localized: Lager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015440877899776
+    m_Localized: Acrylglasmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11015508703989760
+    m_Localized: Shuttle Hafen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17131581606088704
+    m_Localized: Quest Tagebuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17131682462322688
+    m_Localized: Diplomatie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20942875849281536
+    m_Localized: "Bev\xF6lkerung"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21307657026686976
+    m_Localized: Sauerstoffversorgung
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

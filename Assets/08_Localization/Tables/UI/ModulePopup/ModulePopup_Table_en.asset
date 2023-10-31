@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ModulePopup_Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f65ed0af71b8382489d6421e5a28e60d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 201009025024
+    m_Localized: 'Consumption:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220722253824
+    m_Localized: 'Efficiency:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242578771968
+    m_Localized: 'Production:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268164026368
+    m_Localized: 'Priority:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6723633729916928
+    m_Localized: 'Maintenance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11391275480797184
+    m_Localized: 'Construction Cost:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17175355233292288
+    m_Localized: Module Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17175549647671296
+    m_Localized: Needs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17180373722222592
+    m_Localized: 'Population:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17183224229941248
+    m_Localized: 'Needs:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17202405990092800
+    m_Localized: Happiness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17202465696010240
+    m_Localized: Satisfied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17202562072727552
+    m_Localized: Unsatisfied
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-English (en)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 765cf465a52e42946812b2805e056709
+  m_SerializeEntries:
+  - m_GUID: 3bda9ad39e2f55a4cbcc01df4f9740b1
+    m_Address: MainMenu_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 6232a38c33fb52f40910bb90c67b3222
+    m_Address: SettingsMenu_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 3079e0a9bc08ec8438ebbaf84e9defe6
+    m_Address: Ingame_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 66c3355be07c36541af2dae37e6e3b87
+    m_Address: PauseMenu_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 31a2efa5882a36749ad0b79433993110
+    m_Address: TitleScreen_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: f50200663f319db47b6c340731cc557b
+    m_Address: ModalDisplay_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: c514cde48c14e9540a3b4c1f9ca01eea
+    m_Address: Warning_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 34291fc47045e08498a9467950e974ce
+    m_Address: Tooltip_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 99f1960e8c5b58c408635af44a3a3284
+    m_Address: StatisticsDisplay_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 15b96d59b57321940b8b3f4ee81c3a7a
+    m_Address: ModulePopup_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 74484b17bc592b647b46743b217e055e
+    m_Address: QuestUI_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 7eb3e80d03bab3a459ca145f1c5daf5e
+    m_Address: LoadingScreen_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 779e08b728de7bb4bbfa5a7e6167002f
+    m_Address: WinScreen_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 74b08988ae7fc2547979bde57676fa1a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 65c8ff7357fcb1d40a191fb34194715a, type: 2}
+    - {fileID: 11400000, guid: feb7e4b89e01d764589f48644efe7ab7, type: 2}
