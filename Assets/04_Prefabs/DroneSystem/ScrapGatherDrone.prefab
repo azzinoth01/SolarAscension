@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4929558633878624518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2473809640793950122}
+  - component: {fileID: 5035424010843932648}
+  m_Layer: 0
+  m_Name: ScrapGatherDrone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2473809640793950122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929558633878624518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 811680452374986671}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5035424010843932648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929558633878624518}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce0dbcf5fbda684db1c2af006d0633d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveToWaypoint:
+    _gameObject: {fileID: 0}
+    pos: {x: 0, y: 0, z: 0}
+    state: 0
+    _waypointCreated: 0
+    baseValue: 0
+    _currentValue: 0
+    _waitTime: 0
+    _currentDroneOnWaypoint: {fileID: 0}
+  _previousMoveToWaypoint:
+    _gameObject: {fileID: 0}
+    pos: {x: 0, y: 0, z: 0}
+    state: 0
+    _waypointCreated: 0
+    baseValue: 0
+    _currentValue: 0
+    _waitTime: 0
+    _currentDroneOnWaypoint: {fileID: 0}
+  _canMoveTowardsNextWaypoint: 0
+  path:
+    pathID: 0
+    path: []
+  returnPath:
+    pathID: 0
+    path: []
+  _currentPath:
+    pathID: 0
+    path: []
+  _pathIndex: 0
+  startModul:
+    target: 0
+    _moveOutPoint: {fileID: 0}
+    _moveInPoint: {fileID: 0}
+    _path:
+      pathID: 0
+      path: []
+    _returnPath:
+      pathID: 0
+      path: []
+    _insidePath:
+      pathID: 0
+      path: []
+  endModul:
+    target: 0
+    _moveOutPoint: {fileID: 0}
+    _moveInPoint: {fileID: 0}
+    _path:
+      pathID: 0
+      path: []
+    _returnPath:
+      pathID: 0
+      path: []
+    _insidePath:
+      pathID: 0
+      path: []
+  origin:
+    target: 0
+    _moveOutPoint: {fileID: 0}
+    _moveInPoint: {fileID: 0}
+    _path:
+      pathID: 0
+      path: []
+    _returnPath:
+      pathID: 0
+      path: []
+    _insidePath:
+      pathID: 0
+      path: []
+  stopMovement: 0
+  stopMovementTime: 0
+  recalcPath: 0
+  recalcReturnPath: 0
+  _currentSpeed: 0
+--- !u!1 &7525895117128743462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811680452374986671}
+  - component: {fileID: 1674430686472145840}
+  - component: {fileID: 2489494442003978965}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811680452374986671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525895117128743462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2473809640793950122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1674430686472145840
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525895117128743462}
+  m_Mesh: {fileID: 5367577199574719785, guid: 985dfa3cd61d6674bb8335c601438cc7, type: 3}
+--- !u!23 &2489494442003978965
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525895117128743462}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0638742da331ab74b8a24e308aac8e46, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7040592651891161070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7040592651891161068}
+  - component: {fileID: 7040592651891161071}
+  m_Layer: 0
+  m_Name: EconemySystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7040592651891161068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040592651891161070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 84.86213, y: 136.60959, z: -93.31582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7040592651891161071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040592651891161070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c582d9358e170445be6450ae73e4d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tickTimeInSeconds: 1
+  _ressourceDescriptionData: {fileID: 11400000, guid: 8731a17c6c3c22b47b6c92868a0aba49, type: 2}
+  _balanceDescriptionData: {fileID: 11400000, guid: 7f8bb948876f30c40be6eacfa5c0b773, type: 2}
+  _startCapitalData: {fileID: 11400000, guid: 907f21079b403374cbe632f7ffa8a9ec, type: 2}
+  _playerList:
+  - {fileID: 0}
+  showEconomyLogs: 0

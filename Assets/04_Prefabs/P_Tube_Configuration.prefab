@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6640934032019810459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5452699511439050975}
+  - component: {fileID: 8090736079076277306}
+  m_Layer: 0
+  m_Name: P_Tube_Configuration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5452699511439050975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6640934032019810459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8090736079076277306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6640934032019810459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d25eb0e94b53b440a8b10da36da8d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configs:
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 18
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 16
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 2
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 33
+    rotation: {x: 0, y: 90, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 1
+    rotation: {x: 0, y: 90, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 32
+    rotation: {x: 0, y: 90, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 12
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 8
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: -615065222985611021, guid: 0fb6ac8f44d79fb439ba286f1b62b724, type: 3}
+    connections: 4
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 5
+    rotation: {x: 0, y: 90, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 20
+    rotation: {x: 0, y: 0, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 36
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 6
+    rotation: {x: 90, y: 90, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 3
+    rotation: {x: 0, y: 0, z: 180}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 17
+    rotation: {x: 0, y: 0, z: 180}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 48
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 34
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 9
+    rotation: {x: 0, y: 90, z: 90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 24
+    rotation: {x: 0, y: 0, z: 90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 40
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 10
+    rotation: {x: 0, y: 0, z: 90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 26
+    rotation: {x: 0, y: 0, z: 90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 41
+    rotation: {x: 0, y: 90, z: 90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 22
+    rotation: {x: 0, y: 0, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 37
+    rotation: {x: 0, y: 90, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 28
+    rotation: {x: -90, y: 0, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 44
+    rotation: {x: -90, y: 90, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 14
+    rotation: {x: -90, y: 180, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 13
+    rotation: {x: -90, y: -90, z: -90}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 49
+    rotation: {x: 0, y: -90, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 35
+    rotation: {x: 0, y: 90, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 19
+    rotation: {x: 0, y: 180, z: 0}
+  - tube: {fileID: -260870186460120005, guid: 24d7a3f2a6240504a86ef512d3f51b76, type: 3}
+    connections: 50
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 11
+    rotation: {x: 0, y: 90, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 25
+    rotation: {x: 0, y: 90, z: 90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 56
+    rotation: {x: 0, y: 90, z: 90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 42
+    rotation: {x: 0, y: 180, z: 90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 38
+    rotation: {x: 0, y: 180, z: 180}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 7
+    rotation: {x: 0, y: 180, z: -90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 21
+    rotation: {x: 0, y: 180, z: -90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 52
+    rotation: {x: 0, y: 180, z: 180}
+  - tube: {fileID: 9070365841936836744, guid: 2ff6c246a633db749ae9ce7e8d72a509, type: 3}
+    connections: 51
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: 9070365841936836744, guid: 2ff6c246a633db749ae9ce7e8d72a509, type: 3}
+    connections: 45
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: 9070365841936836744, guid: 2ff6c246a633db749ae9ce7e8d72a509, type: 3}
+    connections: 30
+    rotation: {x: 0, y: 0, z: 90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 27
+    rotation: {x: 0, y: 0, z: 90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 57
+    rotation: {x: 0, y: 90, z: 90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 58
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 43
+    rotation: {x: 0, y: 90, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 29
+    rotation: {x: -90, y: 180, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 60
+    rotation: {x: -90, y: -90, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 46
+    rotation: {x: -90, y: 0, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 15
+    rotation: {x: -90, y: 90, z: 0}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 54
+    rotation: {x: 0, y: 0, z: -90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 39
+    rotation: {x: 0, y: 90, z: -90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 23
+    rotation: {x: 0, y: 180, z: -90}
+  - tube: {fileID: -3450159672215377944, guid: 74145f93fd88c0541978aa27114e0ca2, type: 3}
+    connections: 53
+    rotation: {x: 0, y: -90, z: -90}
+  - tube: {fileID: 5851437030771726873, guid: a99b2539b6c3c914184269a06d2e9dec, type: 3}
+    connections: 59
+    rotation: {x: 0, y: 0, z: 0}
+  - tube: {fileID: 5851437030771726873, guid: a99b2539b6c3c914184269a06d2e9dec, type: 3}
+    connections: 61
+    rotation: {x: 90, y: 0, z: 0}
+  - tube: {fileID: 5851437030771726873, guid: a99b2539b6c3c914184269a06d2e9dec, type: 3}
+    connections: 55
+    rotation: {x: 180, y: 0, z: 0}
+  - tube: {fileID: 5851437030771726873, guid: a99b2539b6c3c914184269a06d2e9dec, type: 3}
+    connections: 47
+    rotation: {x: -90, y: 0, z: 0}
+  - tube: {fileID: 5851437030771726873, guid: a99b2539b6c3c914184269a06d2e9dec, type: 3}
+    connections: 31
+    rotation: {x: 0, y: 0, z: 90}
+  - tube: {fileID: 5851437030771726873, guid: a99b2539b6c3c914184269a06d2e9dec, type: 3}
+    connections: 62
+    rotation: {x: 0, y: 0, z: -90}
+  - tube: {fileID: -3728664000038900495, guid: d6bd8a8e7983c1440948319a20a6eac0, type: 3}
+    connections: 63
+    rotation: {x: 0, y: 0, z: 0}
