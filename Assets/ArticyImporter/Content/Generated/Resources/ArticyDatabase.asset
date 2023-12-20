@@ -20,7 +20,7 @@ MonoBehaviour:
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
   mExportLanguage: en
---- !u!114 &-4571049041578742198
+--- !u!114 &-4789895314790370284
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
   m_Name: ArticyDatabase
   m_EditorClassIdentifier: 
-  mHierarchy: {fileID: -4571049041578742198}
+  mHierarchy: {fileID: -4789895314790370284}
   mLocalization: {fileID: -5865589918207269775}
   mInternalProject:
     mName: SolA
