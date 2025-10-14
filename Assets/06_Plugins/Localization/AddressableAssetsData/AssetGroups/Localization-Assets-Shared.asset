@@ -13,74 +13,86 @@ MonoBehaviour:
   m_Name: Localization-Assets-Shared
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Shared
-  m_Data:
-    m_SerializedData: []
   m_GUID: 70f5a51eeedd6c247808cdd78bd291f5
   m_SerializeEntries:
   - m_GUID: 0bf70c303bc459544ac67ff3997178fb
     m_Address: Assets/08_Localization/Tables/UI/MainMenu_Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 13a86dca45989b240970f6904fcacd33
     m_Address: Assets/08_Localization/Tables/UI/SettingsMenu/SettingsMenu_Table Shared
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: a8a13bc210322cc48b84fd30e1a0bef6
-    m_Address: Assets/08_Localization/Tables/UI/Ingame/Ingame_Table Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 3186224736b20e749a2730673faf015b
-    m_Address: Assets/08_Localization/Tables/UI/PauseMenu/PauseMenu_Table Shared
-      Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 2134ebcb8627a0a49ac22a972e354455
-    m_Address: Assets/08_Localization/Tables/Audio/Audio_Table Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 7c4ebb3ff6b22bb40ab2e6c43adc4675
-    m_Address: Assets/08_Localization/Tables/UI/TitleScreen/TitleScreen_Table Shared
-      Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 160a1bd1544c18f4ba38d903c28dc321
     m_Address: Assets/08_Localization/Tables/UI/ModalDisplay/ModalDisplay_Table Shared
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: db63112c3aa3a7e47aee7d75b5577f05
-    m_Address: Assets/08_Localization/Tables/UI/Ingame/Warning_Table Shared Data.asset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2134ebcb8627a0a49ac22a972e354455
+    m_Address: Assets/08_Localization/Tables/Audio/Audio_Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3186224736b20e749a2730673faf015b
+    m_Address: Assets/08_Localization/Tables/UI/PauseMenu/PauseMenu_Table Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 38273a935da114b4d902a7c469a6c63e
     m_Address: Assets/08_Localization/Tables/UI/Tooltip/Tooltip_Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7b69f2b27f089a542a33ec5c8ce78f30
     m_Address: Assets/08_Localization/Tables/UI/StatisticsDisplay/StatisticsDisplay_Table
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: f65ed0af71b8382489d6421e5a28e60d
-    m_Address: Assets/08_Localization/Tables/UI/ModulePopup/ModulePopup_Table Shared
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c4ebb3ff6b22bb40ab2e6c43adc4675
+    m_Address: Assets/08_Localization/Tables/UI/TitleScreen/TitleScreen_Table Shared
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8099059970dce514fa78df51cca7f86c
     m_Address: Assets/08_Localization/Tables/UI/QuestUI/QuestUI_Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9124495b6c125924ba6a6b18fcbbb40b
     m_Address: Assets/08_Localization/Tables/UI/LoadingScreen/LoadingScreen_Table
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3cbe7db13061504db98910f908d4f67
     m_Address: Assets/08_Localization/Tables/UI/WinScreen/WinScreen_Table Shared
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8a13bc210322cc48b84fd30e1a0bef6
+    m_Address: Assets/08_Localization/Tables/UI/Ingame/Ingame_Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db63112c3aa3a7e47aee7d75b5577f05
+    m_Address: Assets/08_Localization/Tables/UI/Ingame/Warning_Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f65ed0af71b8382489d6421e5a28e60d
+    m_Address: Assets/08_Localization/Tables/UI/ModulePopup/ModulePopup_Table Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 74b08988ae7fc2547979bde57676fa1a, type: 2}
   m_SchemaSet:

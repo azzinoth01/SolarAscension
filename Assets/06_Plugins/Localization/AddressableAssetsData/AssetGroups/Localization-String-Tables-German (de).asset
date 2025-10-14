@@ -13,87 +13,98 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-German (de)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-German (de)
-  m_Data:
-    m_SerializedData: []
   m_GUID: ef6dabd993f82fc4cb15bf39919b277b
   m_SerializeEntries:
-  - m_GUID: b35ce282ac57ebc409e4a8f0cf3fc79b
-    m_Address: MainMenu_Table_de
+  - m_GUID: 07100c8091f12064d9d459ac50c62aef
+    m_Address: Tooltip_Table_de
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-de
-    - Preload
-  - m_GUID: a7ce65cfca9bafb449994a03a71eb210
-    m_Address: SettingsMenu_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
-  - m_GUID: fcc943894cbd74e48a2c10a38e1087bb
-    m_Address: Ingame_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
-  - m_GUID: 65ed681bc2a49b547b1bbba8f2070a2c
-    m_Address: PauseMenu_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 445239916de67884f98ad0b349d000fd
     m_Address: TitleScreen_Table_de
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-de
     - Preload
-  - m_GUID: a38c59757fc238e4aa01b2a32cdb7667
-    m_Address: ModalDisplay_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
-  - m_GUID: a7e7e0be49ae95e418313ca9f1da297c
-    m_Address: Warning_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
-  - m_GUID: 07100c8091f12064d9d459ac50c62aef
-    m_Address: Tooltip_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-  - m_GUID: b80523e5da4487843844029909b93304
-    m_Address: StatisticsDisplay_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
-  - m_GUID: da5e082b3e689aa47b68f5083044b1e7
-    m_Address: ModulePopup_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 56713945a95f52a4f9f3b4dcf09428ec
     m_Address: QuestUI_Table_de
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-de
     - Preload
-  - m_GUID: e439a9da022402b4dbf910efccee8900
-    m_Address: LoadingScreen_Table_de
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-de
-    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 65a76802b30a67242b5259e5a1ecdd68
     m_Address: WinScreen_Table_de
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-de
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65ed681bc2a49b547b1bbba8f2070a2c
+    m_Address: PauseMenu_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a38c59757fc238e4aa01b2a32cdb7667
+    m_Address: ModalDisplay_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7ce65cfca9bafb449994a03a71eb210
+    m_Address: SettingsMenu_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7e7e0be49ae95e418313ca9f1da297c
+    m_Address: Warning_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b35ce282ac57ebc409e4a8f0cf3fc79b
+    m_Address: MainMenu_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b80523e5da4487843844029909b93304
+    m_Address: StatisticsDisplay_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da5e082b3e689aa47b68f5083044b1e7
+    m_Address: ModulePopup_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e439a9da022402b4dbf910efccee8900
+    m_Address: LoadingScreen_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcc943894cbd74e48a2c10a38e1087bb
+    m_Address: Ingame_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 74b08988ae7fc2547979bde57676fa1a, type: 2}
   m_SchemaSet:
